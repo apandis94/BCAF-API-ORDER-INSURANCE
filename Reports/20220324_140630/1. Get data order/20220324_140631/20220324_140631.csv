@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Get data order,,,,2022-03-24 14:06:42,2022-03-24 14:06:45,2.807s,PASSED
+,,,,,,,
+Test Cases/1. get token - get data order,,,,2022-03-24 14:06:42,2022-03-24 14:06:45,2.566s,PASSED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-24 14:06:43,2022-03-24 14:06:44,1.126s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-24 14:06:44,2022-03-24 14:06:44,0.010s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-24 14:06:44,2022-03-24 14:06:44,0.033s,PASSED
+private_token = access_token,,define / field api,,2022-03-24 14:06:44,2022-03-24 14:06:44,0.009s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-24 14:06:44,2022-03-24 14:06:44,0.069s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-24 14:06:44,2022-03-24 14:06:44,0.003s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-24 14:06:44,2022-03-24 14:06:44,0.001s,PASSED
+logInfo($response_token),,,,2022-03-24 14:06:44,2022-03-24 14:06:44,0.031s,PASSED
+"order = sendRequest(findTestObject(""3. Get-data-order"", [""s_key"":global_token, ""c_id"":c_id, ""order_date"":order_date, ""page"":page, ""rows"":rows]))",,,,2022-03-24 14:06:44,2022-03-24 14:06:45,0.719s,PASSED
+get_order = order.getResponseText(),,show response to report in test suite,,2022-03-24 14:06:45,2022-03-24 14:06:45,0.001s,PASSED

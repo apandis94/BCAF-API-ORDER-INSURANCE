@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1. Get data order" time="6.953" tests="1" failures="0" errors="0">
+   <testsuite name="1. Get data order" tests="1" failures="0" errors="0" time="6.953" skipped="0" timestamp="2022-07-28 16:21:12" hostname="Nia Yusniati - Apandi" id="Test Suites/1. Get data order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nia Yusniati\\Git_Asa\\order-car-ins\\Reports\\20220728_162059\\1. Get data order\\20220728_162059"/>
+         <property name="logFiles" value="C:\\Users\\Nia Yusniati\\Git_Asa\\order-car-ins\\Reports\\20220728_162059\\1. Get data order\\20220728_162059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nia Yusniati - Apandi"/>
+         <property name="hostAddress" value="192.168.250.13"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/1. get token - get data order" time="5.278" classname="Test Cases/1. get token - get data order" status="PASSED">
+         <system-out><![CDATA[2022-07-28 16:21:12 - [TEST_CASE][PASSED] - Test Cases/1. get token - get data order: Test Cases/1. get token - get data order
+
+2022-07-28 16:21:14 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1.1 Get Token")): Send request successfully
+
+2022-07-28 16:21:16 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220728_162059\1. Get data order\20220728_162059\requests\main\0.har
+
+2022-07-28 16:21:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-28 16:21:16 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-28 16:21:16 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-28 16:21:16 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-28 16:21:16 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-28 16:21:16 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-28 16:21:16 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-28 16:21:16 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "eQkJUP5scfgn5IAIHKJ2oH6aVvu6",
+                "expires_in": "599",
+                "scope": ""
+            }
+        
+
+2022-07-28 16:21:16 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "eQkJUP5scfgn5IAIHKJ2oH6aVvu6",
+                "expires_in": "599",
+                "scope": ""
+            }
+        
+
+2022-07-28 16:21:16 - [TEST_STEP][PASSED] - order = sendRequest(findTestObject("3. Get-data-order", ["s_key":global_token, "c_id":c_id, "order_date":order_date, "page":page, "rows":rows])): Send request successfully
+
+2022-07-28 16:21:17 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220728_162059\1. Get data order\20220728_162059\requests\main\1.har
+
+2022-07-28 16:21:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-28 16:21:17 - [TEST_STEP][PASSED] - get_order = order.getResponseText(): null
+
+2022-07-28 16:21:17 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no): result feedback data : 1
+
+2022-07-28 16:21:17 - [MESSAGE][PASSED] - result feedback data : 1
+
+2022-07-28 16:21:17 - [TEST_STEP][PASSED] - logInfo($get_order): { "errorMessage" : "OSB JavaScript action failed: SyntaxError: Unexpected token: u (<OSB JavaScript expression>#1)", "errorCode" : "OSB-382568" }
+
+2022-07-28 16:21:17 - [MESSAGE][INFO] - { "errorMessage" : "OSB JavaScript action failed: SyntaxError: Unexpected token: u (<OSB JavaScript expression>#1)", "errorCode" : "OSB-382568" }]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-28 16:21:12 - [TEST_SUITE][PASSED] - 1. Get data order: Test Cases/1. get token - get data order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

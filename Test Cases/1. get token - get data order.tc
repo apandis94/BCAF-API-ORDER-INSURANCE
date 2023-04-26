@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. get token - get data order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06ecb4e8-3f23-4ad3-bb8e-a7a2551661e7</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>93a9206c-3bfc-45ec-acc0-bcf2462580f7</id>
+      <masked>false</masked>
+      <name>no</name>
+   </variable>
+   <variable>
+      <defaultValue>'RAKSA PRATIKARA'</defaultValue>
+      <description></description>
+      <id>3e46cf7b-7ddb-47dd-bcc8-6415cb12cd7a</id>
+      <masked>false</masked>
+      <name>c_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'2022-07-28'</defaultValue>
+      <description></description>
+      <id>d22292e5-1366-4a25-bd5b-9f774fca7d65</id>
+      <masked>false</masked>
+      <name>order_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>32dcba1e-5e5f-4fc9-be20-e44ea986540a</id>
+      <masked>false</masked>
+      <name>page</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>4d6ad237-bda8-470b-86b6-2f33b463b84b</id>
+      <masked>false</masked>
+      <name>rows</name>
+   </variable>
+</TestCaseEntity>

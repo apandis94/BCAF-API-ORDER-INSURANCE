@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get data order" time="7.739" tests="1" failures="0" errors="0">
+   <testsuite name="Get data order" tests="1" failures="0" errors="0" time="7.739" skipped="0" timestamp="2022-03-24 13:58:51" hostname="Flavalize - DESKTOP-3CQ5RDT" id="Test Suites/Get data order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220324_135842\\Get data order\\20220324_135843"/>
+         <property name="logFiles" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220324_135842\\Get data order\\20220324_135843\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Flavalize - DESKTOP-3CQ5RDT"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/1. get token - data order" time="6.569" classname="Test Cases/1. get token - data order" status="PASSED">
+         <system-out><![CDATA[2022-03-24 13:58:52 - [TEST_CASE][PASSED] - Test Cases/1. get token - data order: Test Cases/1. get token - data order
+
+2022-03-24 13:58:54 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-24 13:58:55 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_135842\Get data order\20220324_135843\requests\main\0.har
+
+2022-03-24 13:58:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-24 13:58:55 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-24 13:58:55 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-24 13:58:55 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-24 13:58:55 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-24 13:58:55 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-24 13:58:55 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-24 13:58:55 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "wzFDAp4aUbRAFShpBst7hJAfqAAF",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-24 13:58:55 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "wzFDAp4aUbRAFShpBst7hJAfqAAF",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-24 13:58:55 - [TEST_STEP][PASSED] - order = sendRequest(findTestObject("3. Get-data-order", ["s_key":global_token, "c_id":c_id, "order_date":order_date, "page":page, "rows":rows])): Send request successfully
+
+2022-03-24 13:58:56 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_135842\Get data order\20220324_135843\requests\main\1.har
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - get_order = order.getResponseText(): null
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - markPassed("data ke : " + no): data ke : 1
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - data ke : 1
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].TipeOrder", o_tipeorder, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].BatchID", o_batchid, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoRek", o_norek, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoPin", o_nopin, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].CustName", o_custname, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Pemohon", o_pemohon, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].HargaPembelian", o_otr, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Cabang", o_branchid, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].MerkID", o_merk, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].TypeMobil", o_type, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].JenisMobil", o_jenis, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].TahunMobil", o_tahun, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Warna", o_warna, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoRangka", o_norangka, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoMesin", o_nomesin, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoPolisi", o_nopol, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NamaBPKB", o_namabpkb, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].KategoriMobil", o_kategori, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].PenggunaanKendaraan", o_purpose, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Kondisi", o_kondisi, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories1", o_acc1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories2", o_acc2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories3", o_acc3, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories4", o_acc4, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories5", o_acc5, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].HargaAccessories1", o_harga_acc1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].HargaAccessories2", o_harga_acc2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].HargaAccessories3", o_harga_acc3, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].HargaAccessories4", o_harga_acc4, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].HargaAccessories5", o_harga_acc5, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].OverKredit", o_overkredit, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Restructure", o_restructure, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoPolisLama", o_nopol_lama, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].MailAddress", o_mail_addr, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].KabKodya", o_kab_kodya, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].PostalCode", o_postal_code, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].PaketMobil", o_packet, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].CustType", o_cust_type, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].IdentityNo", o_nik, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].BirthPlace", o_birth_place, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].BirthDate", o_birth_date, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Occupation", o_occp, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].AlamatKTP", o_ktp_addr, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].KelurahanKTP", o_ktp_kel, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].KecamatanKTP", o_ktp_kec, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].KabKodyaKTP", o_ktp_kabkodya, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].ProvinsiKTP", o_ktp_prov, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].PostalCodeKTP", o_ktp_postal_code, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].DealerName", o_ktp_dealer_name, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - switch (tenor): null
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - case "3":: null
+
+2022-03-24 13:58:57 - [TEST_STEP][PASSED] - order2 = sendRequest(findTestObject("3. Get-data-order", ["s_key":global_token, "c_id":c_id, "order_date":order_date, "page":page, "rows":rows])): Send request successfully
+
+2022-03-24 13:58:58 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_135842\Get data order\20220324_135843\requests\main\2.har
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - get_order2 = order.getResponseText(): null
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].KondisiPertanggungan", o_kond_pertanggungan_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].TJH", o_tjh_header_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].InsuredValue", o_ins_val_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].InsuredFrom", o_ins_form_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].InsuredTo", o_ins_to_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].Rate", o_rate_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].GrossPremi", o_gross_premi_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].Discount", o_discount_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].Adm", o_adm_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].NetPremi", o_netpremi_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].PerluasanJaminan.TJH", o_tjh_val_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].PerluasanJaminan.RSCC", o_rscc_val_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].PerluasanJaminan.Banjir", o_rsmb_val_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[0].PerluasanJaminan.Accessories", o_acc_val_0, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].KondisiPertanggungan", o_kond_pertanggungan_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].TJH", o_tjh_header_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].InsuredValue", o_ins_val_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].InsuredFrom", o_ins_form_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].InsuredTo", o_ins_to_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].Rate", o_rate_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].GrossPremi", o_gross_premi_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].Discount", o_discount_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].Adm", o_adm_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].NetPremi", o_netpremi_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].PerluasanJaminan.TJH", o_tjh_val_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].PerluasanJaminan.RSCC", o_rscc_val_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].PerluasanJaminan.Banjir", o_rsmb_val_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[1].PerluasanJaminan.Accessories", o_acc_val_1, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].KondisiPertanggungan", o_kond_pertanggungan_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].TJH", o_tjh_header_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].InsuredValue", o_ins_val_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].InsuredFrom", o_ins_form_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].InsuredTo", o_ins_to_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].Rate", o_rate_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].GrossPremi", o_gross_premi_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].Discount", o_discount_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].Adm", o_adm_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].NetPremi", o_netpremi_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].PerluasanJaminan.TJH", o_tjh_val_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].PerluasanJaminan.RSCC", o_rscc_val_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].PerluasanJaminan.Banjir", o_rsmb_val_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].InsuranceData[2].PerluasanJaminan.Accessories", o_acc_val_2, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 13:58:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 13:58:59 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-24 13:58:51 - [TEST_SUITE][PASSED] - Get data order: Test Cases/1. get token - data order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

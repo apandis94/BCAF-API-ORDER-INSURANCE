@@ -1,0 +1,137 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3. Get feedback insurance - Batch 1,,,,2022-03-29 22:37:43,2022-03-29 22:37:57,14.575s,FAILED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:44,2022-03-29 22:37:47,3.140s,FAILED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:44,2022-03-29 22:37:46,1.504s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:46,2022-03-29 22:37:46,0.010s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:46,2022-03-29 22:37:46,0.018s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:46,2022-03-29 22:37:46,0.010s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:46,2022-03-29 22:37:46,0.067s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:46,2022-03-29 22:37:46,0.003s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:46,2022-03-29 22:37:46,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:46,2022-03-29 22:37:46,0.032s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:46,2022-03-29 22:37:47,0.813s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.006s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.001s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.050s,FAILED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:47,2022-03-29 22:37:48,1.006s,FAILED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.228s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.001s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.001s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:47,2022-03-29 22:37:47,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:47,2022-03-29 22:37:48,0.001s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:48,2022-03-29 22:37:48,0.695s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:48,2022-03-29 22:37:48,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:48,2022-03-29 22:37:48,0.001s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:48,2022-03-29 22:37:48,0.001s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:48,2022-03-29 22:37:48,0.026s,FAILED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.792s,FAILED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.133s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.001s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.000s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.001s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.000s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.582s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.001s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.000s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:49,2022-03-29 22:37:49,0.026s,FAILED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:50,2022-03-29 22:37:51,0.868s,FAILED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:50,2022-03-29 22:37:50,0.168s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:50,2022-03-29 22:37:50,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:50,2022-03-29 22:37:50,0.000s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:50,2022-03-29 22:37:50,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:50,2022-03-29 22:37:50,0.001s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:50,2022-03-29 22:37:50,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:50,2022-03-29 22:37:50,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:50,2022-03-29 22:37:50,0.001s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:50,2022-03-29 22:37:51,0.619s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.001s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.000s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.026s,FAILED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:51,2022-03-29 22:37:52,1.040s,PASSED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.190s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.001s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.000s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:51,2022-03-29 22:37:51,0.001s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:51,2022-03-29 22:37:52,0.775s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:52,2022-03-29 22:37:52,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:52,2022-03-29 22:37:52,0.001s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:52,2022-03-29 22:37:52,0.000s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:52,2022-03-29 22:37:52,0.026s,PASSED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:52,2022-03-29 22:37:54,1.025s,PASSED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.233s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.000s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.000s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.001s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.000s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.716s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.001s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:53,2022-03-29 22:37:53,0.000s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:53,2022-03-29 22:37:54,0.028s,PASSED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:54,2022-03-29 22:37:55,1.075s,PASSED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:54,2022-03-29 22:37:54,0.240s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:54,2022-03-29 22:37:54,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:54,2022-03-29 22:37:54,0.000s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:54,2022-03-29 22:37:54,0.001s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:54,2022-03-29 22:37:54,0.000s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:54,2022-03-29 22:37:54,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:54,2022-03-29 22:37:54,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:54,2022-03-29 22:37:54,0.001s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:54,2022-03-29 22:37:55,0.759s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:55,2022-03-29 22:37:55,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:55,2022-03-29 22:37:55,0.001s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:55,2022-03-29 22:37:55,0.000s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:55,2022-03-29 22:37:55,0.025s,PASSED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:55,2022-03-29 22:37:56,0.834s,PASSED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:55,2022-03-29 22:37:56,0.146s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.000s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.001s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.000s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.619s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.000s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.001s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:56,2022-03-29 22:37:56,0.024s,PASSED
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.890s,PASSED
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.144s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.001s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.000s,PASSED
+private_token = access_token,,define / field api,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.000s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.000s,PASSED
+logInfo($response_token),,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.000s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.679s,PASSED
+response_feedback = feedback.getResponseText(),,show response to report in test suite,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.000s,PASSED
+"markPassed(""result feedback data : "" + no + "" norek : "" + norek + "" nopin : "" + nopin)",,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.000s,PASSED
+logInfo($response_feedback),,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.001s,PASSED
+"verifyElementPropertyValue(feedback, ""FeedbackCarInsuranceResponse.errorMessage"", ""Sukses"", CONTINUE_ON_FAILURE)",,,,2022-03-29 22:37:57,2022-03-29 22:37:57,0.023s,PASSED

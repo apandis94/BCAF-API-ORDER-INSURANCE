@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-03-24T14:10:17</date>
+  <millis>1648105817666</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/1. Get data order</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">1. Get data order</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/1. Get data order</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:17</date>
+  <millis>1648105817680</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Flavalize - DESKTOP-3CQ5RDT</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Flavalize - DESKTOP-3CQ5RDT</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:17</date>
+  <millis>1648105817681</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:17</date>
+  <millis>1648105817681</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.4</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.4</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:17</date>
+  <millis>1648105817681</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.2.0.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.2.0.208</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:17</date>
+  <millis>1648105817914</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/1. get token - get data order</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/1. get token - get data order</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/1. get token - get data order</property>
+  <property name="source">I:\app-testing\app-project\Order car insurance\order-car-insurance\Test Cases\1. get token - get data order.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:18</date>
+  <millis>1648105818021</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) no = 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:18</date>
+  <millis>1648105818033</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) c_id = NEWTRKS</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:18</date>
+  <millis>1648105818044</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) order_date = 2021-12-15</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:18</date>
+  <millis>1648105818055</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) page = 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:18</date>
+  <millis>1648105818067</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) rows = 20</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:18</date>
+  <millis>1648105818482</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : token = sendRequest(findTestObject(&amp;quot;1. Get-Token&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819729</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_141006\1. Get data order\20220324_141007\requests\main\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">1269a337-1b94-4ce2-bed4-9effbdfeb5c9</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819811</millis>
+  <sequence>16</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819812</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : token = sendRequest(findTestObject(&amp;quot;1. Get-Token&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819812</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+  <property name="description">store json response to variable</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819822</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819822</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : get_token = slurper.parseText(token.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819849</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : get_token = slurper.parseText(token.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819849</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : private_token = access_token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+  <property name="description">define / field api</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819857</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : private_token = access_token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819857</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : global_token = private_token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">5</property>
+  <property name="description">store var to global variable</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819919</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : global_token = private_token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819920</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;token is :&amp;quot; + global_token)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819923</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;token is :&amp;quot; + global_token)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819923</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response_token = token.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">37</property>
+  <property name="stepIndex">7</property>
+  <property name="description">show response to report in test suite</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819924</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response_token = token.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819924</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo($response_token)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819951</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>
+            {
+                &amp;quot;token_type&amp;quot;: &amp;quot;BearerToken&amp;quot;,
+                &amp;quot;access_token&amp;quot;: &amp;quot;XZGmjTZYrGJU1tnW7SC3Vyx8YDQX&amp;quot;,
+                &amp;quot;expires_in&amp;quot;: &amp;quot;1799&amp;quot;,
+                &amp;quot;scope&amp;quot;: &amp;quot;&amp;quot;
+            }
+        </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819951</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo($response_token)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:19</date>
+  <millis>1648105819951</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : order = sendRequest(findTestObject(&amp;quot;3. Get-data-order&amp;quot;, [&amp;quot;s_key&amp;quot;:global_token, &amp;quot;c_id&amp;quot;:c_id, &amp;quot;order_date&amp;quot;:order_date, &amp;quot;page&amp;quot;:page, &amp;quot;rows&amp;quot;:rows]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">41</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823538</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_141006\1. Get data order\20220324_141007\requests\main\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">d91c95e8-d369-4762-a2d7-611fe4c9c151</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823547</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823548</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : order = sendRequest(findTestObject(&amp;quot;3. Get-data-order&amp;quot;, [&amp;quot;s_key&amp;quot;:global_token, &amp;quot;c_id&amp;quot;:c_id, &amp;quot;order_date&amp;quot;:order_date, &amp;quot;page&amp;quot;:page, &amp;quot;rows&amp;quot;:rows]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823548</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : get_order = order.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">45</property>
+  <property name="stepIndex">10</property>
+  <property name="description">show response to report in test suite</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823549</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : get_order = order.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823549</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo($get_order)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">47</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823549</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>{&amp;quot;ResponseHeader&amp;quot;:{&amp;quot;ErrorCode&amp;quot;:&amp;quot;00&amp;quot;,&amp;quot;ErrorMessage&amp;quot;:&amp;quot;Success&amp;quot;,&amp;quot;CurrentPage&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TotalPage&amp;quot;:&amp;quot;17&amp;quot;,&amp;quot;TotalData&amp;quot;:&amp;quot;322&amp;quot;},&amp;quot;GetDataOrderResponse&amp;quot;:{&amp;quot;ListDataOrder&amp;quot;:[{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;1154000993&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;360000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;1154&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;INNOVA VENTURER 2.0 AT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2017&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;PUTIH&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHFAW8EM4H0206354&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;1TRA295932&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;B 2726 BOM&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;PT AUTORENT LANCAR S&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;14&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;12610&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;09.5307.120661.7004&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;19610612&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Wiraswasta&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;12610&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;21 Auto Cars&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;CS20180084&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;360000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;5466240.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;5466240.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;360000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;998640.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;998640.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;360000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;998640.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;998640.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;1154000995&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;135000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;1154&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;SUZ&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;AVI414F TYPE 2 4X2 AT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2017&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;ABU ABU METALIK&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHYKZE81SHJ321633&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;K14BT1258300&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;B 2380 SZH&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;PT SAKURA ANUGRAH PRATAMA&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;13&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;15114&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;15114&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;F Mobil&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;CS20180084&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;135000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;433620.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;433620.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;135000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;433620.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;433620.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;135000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;433620.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;433620.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;135000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;433620.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;433620.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;1163001384&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;101200000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;1163&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;NIS&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;EVALIA 1.5 4X2 M\/T&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2013&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;PUTIH&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHBK1CG1FDJ011469&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;HR15981163B&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;B 1265 NYR&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;YEVI FACHREVI&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;17116&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Wiraswasta&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;17116&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Benefit Motor&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;101200000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.4745&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;480194.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;480194.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;101200000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.4745&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;480194.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;480194.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;101200000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.4745&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;480194.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;480194.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;101200000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.4745&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;480194.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;480194.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;1230006989&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;176600000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;1230&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;HON&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;ALL NEW BRIO SATYA E CVT 1.2&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;RALLYE RED&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHRDD1850MJ113984&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;L12B34339427&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;MUKINAH&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;1 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;59163&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Professional&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;59163&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Kudus Jaya Motor, PT&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;MINIMAX015&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;176600000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.9637&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3467894.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3467894.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;176600000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;567239.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;567239.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;176600000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;567239.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;567239.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;176600000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;567239.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;567239.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;1333001485&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;206350000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;1333&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;HON&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;BRIO RS 1.2 CVT CKD&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;TAFFETA WHITE&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHRDD1890MJ110078&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;L12B34340674&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;PRIMA DEWI KUMALASARI&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;63312&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;63312&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Surya Anugrah Gempita, PT&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;FIXCAP0648&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;206350000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.3067&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;2696375.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;2696375.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;206350000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2117&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;436843.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;436843.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;206350000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2117&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;436843.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;436843.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;206350000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2117&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;436843.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;436843.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;206350000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2026-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2117&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;436843.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;436843.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9400010429&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;233100000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9400&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;RAIZE 1.0 T G CVT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;DARK GREY MICA MET&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHKAA1BA4MJ025633&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;1KRA647002&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;VEGA TRIRIZKA&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;14&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;14240&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;14240&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Astrido Jaya Mobilindo - Yos Sudarso&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;233100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3539390.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3539390.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;233100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;646619.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;646619.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;233100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;646619.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;646619.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9400061664&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;003&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;241400000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9400&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;AVANZA 1.5 G CVT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;SILVER METALLIC&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHKAB1BY4MK003961&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;2NRG735397&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;TOPAN PAMUNGKAS&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;13&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;14130&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;3172043008910007&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;19910830&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;14130&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Astrido Jaya Mobilindo - Yos Sudarso&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;241400000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3665418.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3665418.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;241400000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3665418.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3665418.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;241400000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3665418.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3665418.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;241400000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3665418.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3665418.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9430010695&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9430&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;VELOZ 1.5 Q CVT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;PLATINUM WHITE PEARL&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHFAB1BYXM0003652&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;2NRX780646&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;ANTON&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;13&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;15334&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Wiraswasta&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;15334&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Astrido Toyota Pondok Indah&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4131566.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4131566.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9430010714&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9430&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;ALL NEW VELOZ 1.5 Q CVT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;BLACK METALLIC&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHFAB1BY8M0005853&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;2NRX785578&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;IDA FITRIA&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;13&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;14460&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Wiraswasta&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;14460&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Astrido Toyota Fatmawati&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;FIXCAP0648&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4131566.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4131566.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;272100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2026-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;754805.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9430010718&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;204000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9430&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;DAI&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;ALL NEW XENIA 1.3 R M\/T&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;HITAM METALIK&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHKAA1AY1MK001296&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;1NRG164729&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;MAJU HUTAGALUNG&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;13870&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;13870&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Asco Prima M Fatmawati&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;FIXCAP0680&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;204000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3097536.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3097536.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;204000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;204000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;204000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;204000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2026-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;204000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2026-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2027-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;565896.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9430010721&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;243700000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9430&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;DAI&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;ALL NEW TERIOS R AT STD&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;HITAM METALIK&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHKG8FB2JMK014668&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;2NRG731315&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;LELI NURHAYATI&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;12520&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;12520&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Asco Prima M Fatmawati&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;243700000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3700341.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3700341.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;243700000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;676024.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;676024.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;243700000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;676024.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;676024.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;243700000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;676024.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;676024.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9446009985&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9446&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;HON&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;ALL NEW CITY HATCHBACK RS CVT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;RALLYE RED&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHRGN5880MJ206321&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;L15ZF1007482&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;HENY NURAENI, SPD&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;1 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;15570&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;15570&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Pro Union Indo Jaya Modernland&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;FIXCAP0679&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;837748.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;837748.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;837748.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;837748.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;837748.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;837748.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2026-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;837748.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;837748.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9446009990&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9446&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;HON&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;ALL NEW CITY HATCHBACK RS CVT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;METEOROID GRAY METALLIC&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHRGN5880MJ204680&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;L15ZF1005833&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;HERRY SETIAWAN, ST&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;1 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;15141&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;15141&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Pro Union Indo Jaya Modernland&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;FIXCAP0648&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;302000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2026-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4585568.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9460011955&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;267100000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9460&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;ALL NEW RUSH 1.5 AT GR SPORT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;BLACK METALLIC&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHKE8FB3JMK061146&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;2NRG736076&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;NADYA INDAH ASTARI&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;13&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;11180&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;3173045712950003&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;19951217&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Wiraswasta&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;11180&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Astrido Jaya Mobilindo - Penjaringan&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;CS20210015&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;267100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.5184&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;4055646.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;4055646.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;267100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;740935.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;740935.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;267100000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2774&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;740935.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;740935.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9481015610&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;127500000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9481&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;AVANZA 1.3 E M\/T&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2017&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;HITAM METALIK&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHKM5EA2JHK035360&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;1NRF319498&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;L 1567 II&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;CSM CORPORATAMA, PT&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;60134&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Wiraswasta&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;60134&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;OLX AUTOS&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;127500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;409530.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;409530.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;127500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;409530.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;409530.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;127500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;409530.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;409530.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;127500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;409530.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;409530.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9481015628&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;181000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9481&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;HON&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;JAZZ GK5 1.5 RS CVT CKD&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2014&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;PUTIH ORCHID MUTIARA&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHRGK5860EJ407202&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;L15Z51012692&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;L 1077 GA&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;STEVANY WIDARNO&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;61252&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;61252&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Muksin Mobil, UD DTC&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;181000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;581372.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;581372.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;181000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;581372.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;581372.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9481015640&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;160000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9481&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;HON&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;BRIO SATYA 1.2 E CVT CKD&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2019&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;ABU ABU BULAN METALIK&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHRDD1850KJ914049&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;L12B32357771&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;L 1682 RU&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;R R AYUNDA YAHDIS SABILA&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;14&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;61257&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Ibu Rumah Tangga&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;61257&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;OLX AUTOS&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;FIXCAP0121&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;160000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;160000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;160000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;160000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;160000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2026-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;513920.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9481015645&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;190000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9481&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;HON&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;JAZZ GK5 1.5 S CVT&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2017&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;PUTIH ORCHID MUTIARA&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHRGK5850HJ800035&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;L15Z51230242&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;L 1962 BG&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;ERNIE MADURATNA SETIAWATIE, DR, DRG, M.KES,SP PERIO&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;61162&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Wiraswasta&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;61162&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;VCRS Motor DTC&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;CS20180084&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;190000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;610280.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;610280.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;190000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;610280.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;610280.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;190000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;610280.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;610280.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;190000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;610280.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;610280.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9481015647&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;173500000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9481&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;AVANZA 1.3 G A\/T (F653RM-GQMFJ)&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2019&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;PUTIH&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MHKM5EB3JKK028305&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;1NRG065746&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;W 1186 YI&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;JOHAN SYAIFUDIN&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;60153&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Wiraswasta&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;60153&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Muksin Mobil, UD DTC&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;173500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;557282.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;557282.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;173500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;557282.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;557282.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;173500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.3212&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;557282.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;557282.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]},{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20211215001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9486004897&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;284500000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9486&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;MIT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;XPANDER ULTIMATE A\/T&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2021&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;HITAM MIKA&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;MK2NCLTARMJ006098&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;4A91KAJ8959&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;IRMAWATI&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Personal&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;61258&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;I&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;20220212&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;Karyawan&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;SCRAMBLE&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;61258&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Sun Star Motor Ngagel&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;000&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;284500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2021-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;1.3067&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;3717562.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;3717562.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;284500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2117&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;602287.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;602287.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;284500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2117&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;602287.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;602287.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;TJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;284500000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-12-14T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-12-14T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.2117&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;602287.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;602287.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]}]}}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823562</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo($get_order)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823562</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/1. get token - get data order</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823563</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/1. get token - get data order</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[
+  {
+    &quot;displayReportName&quot;: &quot;(Default) no&quot;,
+    &quot;value&quot;: &quot;1&quot;,
+    &quot;name&quot;: &quot;(Default) no&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;displayReportName&quot;: &quot;(Default) c_id&quot;,
+    &quot;value&quot;: &quot;NEWTRKS&quot;,
+    &quot;name&quot;: &quot;(Default) c_id&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;displayReportName&quot;: &quot;(Default) order_date&quot;,
+    &quot;value&quot;: &quot;2021-12-15&quot;,
+    &quot;name&quot;: &quot;(Default) order_date&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;displayReportName&quot;: &quot;(Default) page&quot;,
+    &quot;value&quot;: &quot;1&quot;,
+    &quot;name&quot;: &quot;(Default) page&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;displayReportName&quot;: &quot;(Default) rows&quot;,
+    &quot;value&quot;: &quot;20&quot;,
+    &quot;name&quot;: &quot;(Default) rows&quot;,
+    &quot;masked&quot;: false
+  }
+]</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823565</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823791</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_141006\1. Get data order\20220324_141007...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823834</millis>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823834</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_141006\1. Get data order\20220324_141007...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:23</date>
+  <millis>1648105823852</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:24</date>
+  <millis>1648105824087</millis>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-24T14:10:24</date>
+  <millis>1648105824140</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/1. Get data order</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2022-07-05T09:21:24</date>
+  <millis>1656987684132</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Data order&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-05T09:21:24</date>
+  <millis>1656987684138</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-05T09:21:24</date>
+  <millis>1656987684146</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Excel\order-data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-05T09:42:22</date>
+  <millis>1656988942870</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>341</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har8558193779158472627\requests\ModalContext\0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">5de0e27d-a58c-4b1d-8964-e23afae71323</property>
+</record>
+<record>
+  <date>2022-07-05T10:07:16</date>
+  <millis>1656990436216</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>446</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har6567452671447601039\requests\ModalContext\1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">01437482-2380-488f-a6d9-0ebc0685d5ba</property>
+</record>
+<record>
+  <date>2022-07-05T10:08:31</date>
+  <millis>1656990511032</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>466</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har3375814091843132686\requests\ModalContext\2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">37e33fbd-5884-4667-a27b-640e3dd211d3</property>
+</record>
+<record>
+  <date>2022-07-05T15:14:37</date>
+  <millis>1657008877184</millis>
+  <sequence>43868</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>771</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har6093748085737902790\requests\ModalContext\3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">ba779d79-9be0-4913-bd05-c1bd291f0449</property>
+</record>
+<record>
+  <date>2022-07-05T15:14:57</date>
+  <millis>1657008897882</millis>
+  <sequence>43869</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>795</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har1023212260908642448\requests\ModalContext\4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">4e81d858-9470-465c-bcac-3e9299db5d1e</property>
+</record>
+<record>
+  <date>2022-07-05T15:15:12</date>
+  <millis>1657008912015</millis>
+  <sequence>43870</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>802</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har5530096003706737830\requests\ModalContext\5.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">f240c1fa-663b-4b58-976b-48ab5ea24238</property>
+</record>
+<record>
+  <date>2022-07-05T15:24:31</date>
+  <millis>1657009471545</millis>
+  <sequence>51405</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>892</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har2367821968198861982\requests\ModalContext\6.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">c7e02aa8-8711-4b05-98c0-8f0e51376119</property>
+</record>
+<record>
+  <date>2022-07-05T15:28:14</date>
+  <millis>1657009694416</millis>
+  <sequence>51406</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>901</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har249277691157743947\requests\ModalContext\7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">99a162a0-eca5-46bb-8034-5348462ee54e</property>
+</record>
+<record>
+  <date>2022-07-05T15:28:52</date>
+  <millis>1657009732581</millis>
+  <sequence>51407</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>909</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har7787935481598735887\requests\ModalContext\8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">5b0e87ae-7e7b-4077-b3fb-21fe002789a3</property>
+</record>
+<record>
+  <date>2022-07-05T15:34:35</date>
+  <millis>1657010075637</millis>
+  <sequence>51408</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>980</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har1323488845404100836\requests\ModalContext\9.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">797cbfdf-6222-40e7-bf21-8385d874d0f0</property>
+</record>
+<record>
+  <date>2022-07-05T15:34:48</date>
+  <millis>1657010088707</millis>
+  <sequence>51409</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>987</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har8616617376921645310\requests\ModalContext\10.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">3a81a17e-ced4-4631-acc0-a30b91aed610</property>
+</record>
+<record>
+  <date>2022-07-05T15:43:34</date>
+  <millis>1657010614548</millis>
+  <sequence>51410</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>994</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har2094427995382634424\requests\ModalContext\11.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">1fee9cf7-2912-4a22-8fa7-dca23f339f4e</property>
+</record>
+<record>
+  <date>2022-07-05T15:43:45</date>
+  <millis>1657010625125</millis>
+  <sequence>51411</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1002</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har1741798822535126565\requests\ModalContext\12.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">32ab2471-162f-482f-a64d-3e0d09634e1b</property>
+</record>
+<record>
+  <date>2022-07-05T15:44:39</date>
+  <millis>1657010679834</millis>
+  <sequence>51412</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1007</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har342835741708910972\requests\ModalContext\13.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">ebf70a35-fef5-4f8a-8e69-69bd0dfb14bb</property>
+</record>
+<record>
+  <date>2022-07-05T15:45:07</date>
+  <millis>1657010707148</millis>
+  <sequence>51413</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1019</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har7904055861705620265\requests\ModalContext\14.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">29be7ab7-fb4f-4707-8bf6-40b469bd4388</property>
+</record>
+<record>
+  <date>2022-07-05T15:46:05</date>
+  <millis>1657010765068</millis>
+  <sequence>51414</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1026</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har2862754696003998188\requests\ModalContext\15.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">f9482d96-402d-4a6a-97b2-8e43b2de804b</property>
+</record>
+<record>
+  <date>2022-07-05T15:46:23</date>
+  <millis>1657010783904</millis>
+  <sequence>51415</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1037</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har2110978661433701295\requests\ModalContext\16.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">055cde93-411b-488e-9ba5-aa367cb37033</property>
+</record>
+<record>
+  <date>2022-07-05T15:46:38</date>
+  <millis>1657010798861</millis>
+  <sequence>51416</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1049</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har3813462529222611967\requests\ModalContext\17.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">5fa22395-a3e8-44a8-985b-832a07d35b54</property>
+</record>
+<record>
+  <date>2022-07-05T15:47:23</date>
+  <millis>1657010843898</millis>
+  <sequence>51417</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1058</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har7199998130217475015\requests\ModalContext\18.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">86aa82fc-459c-41a8-a869-5179cf6c9c3d</property>
+</record>
+<record>
+  <date>2022-07-05T16:04:00</date>
+  <millis>1657011840464</millis>
+  <sequence>51418</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1066</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har2019837324133681233\requests\ModalContext\19.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">4ae20d1f-d3b4-4edd-8fd9-c3f9e3d15326</property>
+</record>
+<record>
+  <date>2022-07-05T16:15:12</date>
+  <millis>1657012512109</millis>
+  <sequence>51419</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1082</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har5721965259557831011\requests\ModalContext\20.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">df3cb704-e25d-40d3-acc4-9b3f29e59db3</property>
+</record>
+<record>
+  <date>2022-07-05T16:15:30</date>
+  <millis>1657012530531</millis>
+  <sequence>51420</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1089</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har5385136147897300975\requests\ModalContext\21.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">48a5006f-2232-49d8-bfac-110837995496</property>
+</record>
+<record>
+  <date>2022-07-05T16:40:08</date>
+  <millis>1657014008484</millis>
+  <sequence>51421</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1096</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har8254851686117322283\requests\ModalContext\22.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">d6ad5289-38e7-4ada-a105-50912b22feef</property>
+</record>
+<record>
+  <date>2022-07-05T16:40:34</date>
+  <millis>1657014034700</millis>
+  <sequence>51422</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1101</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har5953569474695916183\requests\ModalContext\23.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">ac85baa5-6108-4200-8244-6fb427408b15</property>
+</record>
+<record>
+  <date>2022-07-05T16:41:01</date>
+  <millis>1657014061229</millis>
+  <sequence>51423</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1107</thread>
+  <message>HAR: C:\Users\NIAYUS~1\AppData\Local\Temp\har8814875282595075182\requests\ModalContext\24.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">e81cfd1a-e3e5-42d7-a480-8661e4e246b7</property>
+</record>
+</log>

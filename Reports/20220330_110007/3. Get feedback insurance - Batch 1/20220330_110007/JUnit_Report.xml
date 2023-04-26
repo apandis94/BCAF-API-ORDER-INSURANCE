@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3. Get feedback insurance - Batch 1" time="7.863" tests="4" failures="4" errors="0">
+   <testsuite name="3. Get feedback insurance - Batch 1" tests="4" failures="4" errors="0" time="7.863" skipped="0" timestamp="2022-03-30 11:00:16" hostname="Flavalize - DESKTOP-3CQ5RDT" id="Test Suites/3. Get feedback insurance - Batch 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220330_110007\\3. Get feedback insurance - Batch 1\\20220330_110007"/>
+         <property name="logFiles" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220330_110007\\3. Get feedback insurance - Batch 1\\20220330_110007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Flavalize - DESKTOP-3CQ5RDT"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="2.876" classname="Test Cases/3. get token - feedback insurance" status="FAILED">
+         <failure type="FAILED" message="Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-30 11:00:17 - [TEST_CASE][FAILED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)
+
+
+2022-03-30 11:00:18 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:00:19 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110007\3. Get feedback insurance - Batch 1\20220330_110007\requests\main\0.har
+
+2022-03-30 11:00:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Um8rIealPGjcnodKqCr5AoWuVWYC",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:00:19 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Um8rIealPGjcnodKqCr5AoWuVWYC",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:00:19 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:00:20 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110007\3. Get feedback insurance - Batch 1\20220330_110007\requests\main\1.har
+
+2022-03-30 11:00:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:00:20 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:00:20 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 31 norek : 1220003623 nopin : 001
+
+2022-03-30 11:00:20 - [MESSAGE][PASSED] - result feedback data : 31 norek : 1220003623 nopin : 001
+
+2022-03-30 11:00:20 - [TEST_STEP][PASSED] - logInfo($response_feedback): <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-30 11:00:20 - [MESSAGE][INFO] - <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-30 11:00:20 - [TEST_STEP][FAILED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+
+2022-03-30 11:00:20 - [MESSAGE][FAILED] - Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response']]></system-out>
+         <system-err><![CDATA[2022-03-30 11:00:17 - [TEST_CASE][FAILED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="1.104" classname="Test Cases/3. get token - feedback insurance" status="FAILED">
+         <failure type="FAILED" message="Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-30 11:00:21 - [TEST_CASE][FAILED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)
+
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:00:21 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110007\3. Get feedback insurance - Batch 1\20220330_110007\requests\main\2.har
+
+2022-03-30 11:00:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "gV8fmnSXtYmAAJAENlziH0gOLwAb",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:00:21 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "gV8fmnSXtYmAAJAENlziH0gOLwAb",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:00:21 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:00:22 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110007\3. Get feedback insurance - Batch 1\20220330_110007\requests\main\3.har
+
+2022-03-30 11:00:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 32 norek : 1220003623 nopin : 001
+
+2022-03-30 11:00:22 - [MESSAGE][PASSED] - result feedback data : 32 norek : 1220003623 nopin : 001
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - logInfo($response_feedback): <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-30 11:00:22 - [MESSAGE][INFO] - <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-30 11:00:22 - [TEST_STEP][FAILED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+
+2022-03-30 11:00:22 - [MESSAGE][FAILED] - Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response']]></system-out>
+         <system-err><![CDATA[2022-03-30 11:00:21 - [TEST_CASE][FAILED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="1.028" classname="Test Cases/3. get token - feedback insurance" status="FAILED">
+         <failure type="FAILED" message="Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-30 11:00:22 - [TEST_CASE][FAILED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)
+
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:00:22 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110007\3. Get feedback insurance - Batch 1\20220330_110007\requests\main\4.har
+
+2022-03-30 11:00:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "kKjrSyMstgGpPXrRG8WiPAGOUuO4",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:00:22 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "kKjrSyMstgGpPXrRG8WiPAGOUuO4",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:00:22 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:00:23 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110007\3. Get feedback insurance - Batch 1\20220330_110007\requests\main\5.har
+
+2022-03-30 11:00:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:00:23 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:00:23 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 33 norek : 1220003623 nopin : 001
+
+2022-03-30 11:00:23 - [MESSAGE][PASSED] - result feedback data : 33 norek : 1220003623 nopin : 001
+
+2022-03-30 11:00:23 - [TEST_STEP][PASSED] - logInfo($response_feedback): <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-30 11:00:23 - [MESSAGE][INFO] - <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-30 11:00:23 - [TEST_STEP][FAILED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+
+2022-03-30 11:00:23 - [MESSAGE][FAILED] - Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response']]></system-out>
+         <system-err><![CDATA[2022-03-30 11:00:22 - [TEST_CASE][FAILED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="0.845" classname="Test Cases/3. get token - feedback insurance" status="FAILED">
+         <failure type="FAILED" message="Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-30 11:00:23 - [TEST_CASE][FAILED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)
+
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:00:24 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110007\3. Get feedback insurance - Batch 1\20220330_110007\requests\main\6.har
+
+2022-03-30 11:00:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "fKdHseqK8KsjXeAkzk0G4zlfWZNZ",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:00:24 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "fKdHseqK8KsjXeAkzk0G4zlfWZNZ",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:00:24 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110007\3. Get feedback insurance - Batch 1\20220330_110007\requests\main\7.har
+
+2022-03-30 11:00:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 34 norek : 1220003623 nopin : 001
+
+2022-03-30 11:00:24 - [MESSAGE][PASSED] - result feedback data : 34 norek : 1220003623 nopin : 001
+
+2022-03-30 11:00:24 - [TEST_STEP][PASSED] - logInfo($response_feedback): <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-30 11:00:24 - [MESSAGE][INFO] - <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-30 11:00:24 - [TEST_STEP][FAILED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+
+2022-03-30 11:00:24 - [MESSAGE][FAILED] - Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response']]></system-out>
+         <system-err><![CDATA[2022-03-30 11:00:23 - [TEST_CASE][FAILED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-30 11:00:16 - [TEST_SUITE][FAILED] - 3. Get feedback insurance - Batch 1: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-03-30 11:00:16 - [TEST_SUITE][FAILED] - 3. Get feedback insurance - Batch 1: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Sukses' is not equal with actual property value 'OSB Service Callout action received SOAP Fault response'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612807315.run(TempTestSuite1648612807315.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

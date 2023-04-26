@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1. Get data order" time="2.807" tests="1" failures="0" errors="0">
+   <testsuite name="1. Get data order" tests="1" failures="0" errors="0" time="2.807" skipped="0" timestamp="2022-03-24 14:06:42" hostname="Flavalize - DESKTOP-3CQ5RDT" id="Test Suites/1. Get data order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220324_140630\\1. Get data order\\20220324_140631"/>
+         <property name="logFiles" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220324_140630\\1. Get data order\\20220324_140631\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Flavalize - DESKTOP-3CQ5RDT"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/1. get token - get data order" time="2.566" classname="Test Cases/1. get token - get data order" status="PASSED">
+         <system-out><![CDATA[2022-03-24 14:06:42 - [TEST_CASE][PASSED] - Test Cases/1. get token - get data order: Test Cases/1. get token - get data order
+
+2022-03-24 14:06:43 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-24 14:06:44 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_140630\1. Get data order\20220324_140631\requests\main\0.har
+
+2022-03-24 14:06:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-24 14:06:44 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-24 14:06:44 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-24 14:06:44 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-24 14:06:44 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-24 14:06:44 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-24 14:06:44 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-24 14:06:44 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2Tlk1pvNK9nMP88uXUYyjQs1SUtA",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-24 14:06:44 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2Tlk1pvNK9nMP88uXUYyjQs1SUtA",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-24 14:06:44 - [TEST_STEP][PASSED] - order = sendRequest(findTestObject("3. Get-data-order", ["s_key":global_token, "c_id":c_id, "order_date":order_date, "page":page, "rows":rows])): Send request successfully
+
+2022-03-24 14:06:45 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_140630\1. Get data order\20220324_140631\requests\main\1.har
+
+2022-03-24 14:06:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-24 14:06:45 - [TEST_STEP][PASSED] - get_order = order.getResponseText(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-24 14:06:42 - [TEST_SUITE][PASSED] - 1. Get data order: Test Cases/1. get token - get data order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

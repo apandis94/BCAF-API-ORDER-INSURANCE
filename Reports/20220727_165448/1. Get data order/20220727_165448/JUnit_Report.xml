@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1. Get data order" time="7.543" tests="1" failures="0" errors="0">
+   <testsuite name="1. Get data order" tests="1" failures="0" errors="0" time="7.543" skipped="0" timestamp="2022-07-27 16:55:09" hostname="Nia Yusniati - Apandi" id="Test Suites/1. Get data order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nia Yusniati\\Git_Asa\\order-car-ins\\Reports\\20220727_165448\\1. Get data order\\20220727_165448"/>
+         <property name="logFiles" value="C:\\Users\\Nia Yusniati\\Git_Asa\\order-car-ins\\Reports\\20220727_165448\\1. Get data order\\20220727_165448\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nia Yusniati - Apandi"/>
+         <property name="hostAddress" value="10.10.90.47"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/1. get token - get data order" time="5.719" classname="Test Cases/1. get token - get data order" status="PASSED">
+         <system-out><![CDATA[2022-07-27 16:55:09 - [TEST_CASE][PASSED] - Test Cases/1. get token - get data order: Test Cases/1. get token - get data order
+
+2022-07-27 16:55:11 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1.1 Get Token")): Send request successfully
+
+2022-07-27 16:55:13 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220727_165448\1. Get data order\20220727_165448\requests\main\0.har
+
+2022-07-27 16:55:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-27 16:55:13 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-27 16:55:13 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-27 16:55:13 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-27 16:55:13 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-27 16:55:14 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-27 16:55:14 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-27 16:55:14 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Majc9AbMjp2DOzn0VXzMiJ132hpq",
+                "expires_in": "599",
+                "scope": ""
+            }
+        
+
+2022-07-27 16:55:14 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Majc9AbMjp2DOzn0VXzMiJ132hpq",
+                "expires_in": "599",
+                "scope": ""
+            }
+        
+
+2022-07-27 16:55:14 - [TEST_STEP][PASSED] - order = sendRequest(findTestObject("3. Get-data-order", ["s_key":global_token, "c_id":c_id, "order_date":order_date, "page":page, "rows":rows])): Send request successfully
+
+2022-07-27 16:55:15 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220727_165448\1. Get data order\20220727_165448\requests\main\1.har
+
+2022-07-27 16:55:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-27 16:55:15 - [TEST_STEP][PASSED] - get_order = order.getResponseText(): null
+
+2022-07-27 16:55:15 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no): result feedback data : 1
+
+2022-07-27 16:55:15 - [MESSAGE][PASSED] - result feedback data : 1
+
+2022-07-27 16:55:15 - [TEST_STEP][PASSED] - logInfo($get_order): {"ResponseHeader":{"ErrorCode":"00","ErrorMessage":"Success","CurrentPage":"1","TotalPage":"1","TotalData":"1"},"GetDataOrderResponse":{"ListDataOrder":[{"TipeOrder":"A","BatchID":"A_BCAFNEWTRKSBatch20220705001","NoRek":"9530008519","NoPin":"001","CustName":"PORORO","Pemohon":"PT BCAF QQ BCA","HargaPembelian":"350000000.00","Cabang":"9530","MerkID":"TYT","TypeMobil":"ALL NEW AVANZA 1.3 E A\/T AIRBAG","JenisMobil":"1","TahunMobil":"2020","Warna":"WHITE","NoRangka":"BJ8732109K","NoMesin":"BB 8900 JK","NoPolisi":"F 9009 TF","Amount2":"","NamaBPKB":"PORORO","KategoriMobil":"3 ","Text2":"","PenggunaanKendaraan":"Operasional","Kondisi":"2","LastUser":"","Accessories1":"","Accessories2":"","Accessories3":"","Accessories4":"","Accessories5":"","HargaAccessories1":"0.00","HargaAccessories2":"0.00","HargaAccessories3":"0.00","HargaAccessories4":"0.00","HargaAccessories5":"0.00","OverKredit":"0","Restructure":"0","NoPolisLama":"","MailAddress":"Kp. Jahe merah no. 21 Sukamaju CIGUDEG","KabKodya":"BOGOR","PostalCode":"16660","PaketMobil":"","CustType":"C","IdentityNo":"809010056543210","BirthPlace":"0","BirthDate":"0","Occupation":"0","AlamatKTP":"Kp. Jahe merah no. 21","KelurahanKTP":"Sukamaju","KecamatanKTP":"CIGUDEG","KabKodyaKTP":"BOGOR","ProvinsiKTP":"Jawa Barat","PostalCodeKTP":"16660","DealerName":"Auto 2000 Tangerang 4970646111","PacketID":"CS20180064","InsuranceData":[{"KondisiPertanggungan":"ALL RISK","NominalTJH":"10000000       ","InsuredValue":"350000000.00","InsuredFrom":"2022-07-05T00:00:00","InsuredTo":"2023-07-05T00:00:00","Rate":"0.0000","GrossPremi":"73000.00","Discount":"0.0000","Adm":"14000.00","NetPremi":"73000.00","Amount2":"","Text2":"","PerluasanJaminan":{"TJH":"1","RSCC":"1","Banjir":"1","Accessories":"0"}},{"KondisiPertanggungan":"TLO","NominalTJH":"","InsuredValue":"350000000.00","InsuredFrom":"2023-07-05T00:00:00","InsuredTo":"2024-07-05T00:00:00","Rate":"0.0000","GrossPremi":"0.00","Discount":"0.0000","Adm":"0.00","NetPremi":"0.00","Amount2":"","Text2":"","PerluasanJaminan":{"TJH":"0","RSCC":"0","Banjir":"0","Accessories":"0"}},{"KondisiPertanggungan":"TLO","NominalTJH":"","InsuredValue":"350000000.00","InsuredFrom":"2024-07-05T00:00:00","InsuredTo":"2025-07-05T00:00:00","Rate":"0.0000","GrossPremi":"0.00","Discount":"0.0000","Adm":"0.00","NetPremi":"0.00","Amount2":"","Text2":"","PerluasanJaminan":{"TJH":"0","RSCC":"0","Banjir":"0","Accessories":"0"}},{"KondisiPertanggungan":"ALL RISK","NominalTJH":"10000000       ","InsuredValue":"350000000.00","InsuredFrom":"2025-07-05T00:00:00","InsuredTo":"2026-07-05T00:00:00","Rate":"0.0000","GrossPremi":"73000.00","Discount":"0.0000","Adm":"0.00","NetPremi":"73000.00","Amount2":"","Text2":"","PerluasanJaminan":{"TJH":"1","RSCC":"1","Banjir":"1","Accessories":"0"}}]}]}}
+
+2022-07-27 16:55:15 - [MESSAGE][INFO] - {"ResponseHeader":{"ErrorCode":"00","ErrorMessage":"Success","CurrentPage":"1","TotalPage":"1","TotalData":"1"},"GetDataOrderResponse":{"ListDataOrder":[{"TipeOrder":"A","BatchID":"A_BCAFNEWTRKSBatch20220705001","NoRek":"9530008519","NoPin":"001","CustName":"PORORO","Pemohon":"PT BCAF QQ BCA","HargaPembelian":"350000000.00","Cabang":"9530","MerkID":"TYT","TypeMobil":"ALL NEW AVANZA 1.3 E A\/T AIRBAG","JenisMobil":"1","TahunMobil":"2020","Warna":"WHITE","NoRangka":"BJ8732109K","NoMesin":"BB 8900 JK","NoPolisi":"F 9009 TF","Amount2":"","NamaBPKB":"PORORO","KategoriMobil":"3 ","Text2":"","PenggunaanKendaraan":"Operasional","Kondisi":"2","LastUser":"","Accessories1":"","Accessories2":"","Accessories3":"","Accessories4":"","Accessories5":"","HargaAccessories1":"0.00","HargaAccessories2":"0.00","HargaAccessories3":"0.00","HargaAccessories4":"0.00","HargaAccessories5":"0.00","OverKredit":"0","Restructure":"0","NoPolisLama":"","MailAddress":"Kp. Jahe merah no. 21 Sukamaju CIGUDEG","KabKodya":"BOGOR","PostalCode":"16660","PaketMobil":"","CustType":"C","IdentityNo":"809010056543210","BirthPlace":"0","BirthDate":"0","Occupation":"0","AlamatKTP":"Kp. Jahe merah no. 21","KelurahanKTP":"Sukamaju","KecamatanKTP":"CIGUDEG","KabKodyaKTP":"BOGOR","ProvinsiKTP":"Jawa Barat","PostalCodeKTP":"16660","DealerName":"Auto 2000 Tangerang 4970646111","PacketID":"CS20180064","InsuranceData":[{"KondisiPertanggungan":"ALL RISK","NominalTJH":"10000000       ","InsuredValue":"350000000.00","InsuredFrom":"2022-07-05T00:00:00","InsuredTo":"2023-07-05T00:00:00","Rate":"0.0000","GrossPremi":"73000.00","Discount":"0.0000","Adm":"14000.00","NetPremi":"73000.00","Amount2":"","Text2":"","PerluasanJaminan":{"TJH":"1","RSCC":"1","Banjir":"1","Accessories":"0"}},{"KondisiPertanggungan":"TLO","NominalTJH":"","InsuredValue":"350000000.00","InsuredFrom":"2023-07-05T00:00:00","InsuredTo":"2024-07-05T00:00:00","Rate":"0.0000","GrossPremi":"0.00","Discount":"0.0000","Adm":"0.00","NetPremi":"0.00","Amount2":"","Text2":"","PerluasanJaminan":{"TJH":"0","RSCC":"0","Banjir":"0","Accessories":"0"}},{"KondisiPertanggungan":"TLO","NominalTJH":"","InsuredValue":"350000000.00","InsuredFrom":"2024-07-05T00:00:00","InsuredTo":"2025-07-05T00:00:00","Rate":"0.0000","GrossPremi":"0.00","Discount":"0.0000","Adm":"0.00","NetPremi":"0.00","Amount2":"","Text2":"","PerluasanJaminan":{"TJH":"0","RSCC":"0","Banjir":"0","Accessories":"0"}},{"KondisiPertanggungan":"ALL RISK","NominalTJH":"10000000       ","InsuredValue":"350000000.00","InsuredFrom":"2025-07-05T00:00:00","InsuredTo":"2026-07-05T00:00:00","Rate":"0.0000","GrossPremi":"73000.00","Discount":"0.0000","Adm":"0.00","NetPremi":"73000.00","Amount2":"","Text2":"","PerluasanJaminan":{"TJH":"1","RSCC":"1","Banjir":"1","Accessories":"0"}}]}]}}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-27 16:55:09 - [TEST_SUITE][PASSED] - 1. Get data order: Test Cases/1. get token - get data order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

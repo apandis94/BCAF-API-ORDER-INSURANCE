@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3. Get feedback insurance - Batch 1" time="9.966" tests="5" failures="0" errors="0">
+   <testsuite name="3. Get feedback insurance - Batch 1" tests="5" failures="0" errors="0" time="9.966" skipped="0" timestamp="2022-03-30 11:02:51" hostname="Flavalize - DESKTOP-3CQ5RDT" id="Test Suites/3. Get feedback insurance - Batch 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220330_110240\\3. Get feedback insurance - Batch 1\\20220330_110241"/>
+         <property name="logFiles" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220330_110240\\3. Get feedback insurance - Batch 1\\20220330_110241\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Flavalize - DESKTOP-3CQ5RDT"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="3.403" classname="Test Cases/3. get token - feedback insurance" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:02:52 - [TEST_CASE][PASSED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance
+
+2022-03-30 11:02:52 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:02:53 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\0.har
+
+2022-03-30 11:02:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:02:53 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:02:53 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:02:53 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:02:53 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:02:54 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:02:54 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:02:54 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "h5Z1l9V9GZ337g4afwUQovGo9OV9",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:02:54 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "h5Z1l9V9GZ337g4afwUQovGo9OV9",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:02:54 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:02:55 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\1.har
+
+2022-03-30 11:02:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:02:55 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:02:55 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 49 norek : 9440010265 nopin : 001
+
+2022-03-30 11:02:55 - [MESSAGE][PASSED] - result feedback data : 49 norek : 9440010265 nopin : 001
+
+2022-03-30 11:02:55 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:02:55 - [MESSAGE][INFO] - {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:02:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-30 11:02:55 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="0.962" classname="Test Cases/3. get token - feedback insurance" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:02:55 - [TEST_CASE][PASSED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance
+
+2022-03-30 11:02:55 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:02:56 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\2.har
+
+2022-03-30 11:02:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "TnAY4OqVVftj8J421SR1shvHArGJ",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:02:56 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "TnAY4OqVVftj8J421SR1shvHArGJ",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:02:56 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\3.har
+
+2022-03-30 11:02:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 50 norek : 9440010265 nopin : 001
+
+2022-03-30 11:02:56 - [MESSAGE][PASSED] - result feedback data : 50 norek : 9440010265 nopin : 001
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:02:56 - [MESSAGE][INFO] - {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:02:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-30 11:02:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="1.007" classname="Test Cases/3. get token - feedback insurance" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:02:57 - [TEST_CASE][PASSED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:02:57 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\4.har
+
+2022-03-30 11:02:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "QimJlpsNTnGtSrA2Ki9Bs8o4fdFG",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:02:57 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "QimJlpsNTnGtSrA2Ki9Bs8o4fdFG",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:02:57 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:02:58 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\5.har
+
+2022-03-30 11:02:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 51 norek : 9440010265 nopin : 001
+
+2022-03-30 11:02:58 - [MESSAGE][PASSED] - result feedback data : 51 norek : 9440010265 nopin : 001
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:02:58 - [MESSAGE][INFO] - {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-30 11:02:58 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="1.175" classname="Test Cases/3. get token - feedback insurance" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:02:58 - [TEST_CASE][PASSED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:02:58 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\6.har
+
+2022-03-30 11:02:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "EQ6OqBjDioOmdCFhqKRL4KfnDnbU",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:02:58 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "EQ6OqBjDioOmdCFhqKRL4KfnDnbU",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:02:58 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:02:59 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\7.har
+
+2022-03-30 11:02:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:02:59 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:02:59 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 52 norek : 9440010269 nopin : 001
+
+2022-03-30 11:02:59 - [MESSAGE][PASSED] - result feedback data : 52 norek : 9440010269 nopin : 001
+
+2022-03-30 11:02:59 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:02:59 - [MESSAGE][INFO] - {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:02:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-30 11:02:59 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="0.976" classname="Test Cases/3. get token - feedback insurance" status="PASSED">
+         <system-out><![CDATA[2022-03-30 11:03:00 - [TEST_CASE][PASSED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 11:03:00 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\8.har
+
+2022-03-30 11:03:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "xfMqhqjGMAQipkl3dgVlJJzbYSZs",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:03:00 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "xfMqhqjGMAQipkl3dgVlJJzbYSZs",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 11:03:00 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 11:03:01 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_110240\3. Get feedback insurance - Batch 1\20220330_110241\requests\main\9.har
+
+2022-03-30 11:03:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 11:03:01 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-30 11:03:01 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 53 norek : 9440010269 nopin : 001
+
+2022-03-30 11:03:01 - [MESSAGE][PASSED] - result feedback data : 53 norek : 9440010269 nopin : 001
+
+2022-03-30 11:03:01 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:03:01 - [MESSAGE][INFO] - {
+  "FeedbackCarInsuranceResponse" : {
+    "errorCode" : "00",
+    "errorMessage" : "Sukses"
+  }
+}
+
+2022-03-30 11:03:01 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "FeedbackCarInsuranceResponse.errorMessage", "Sukses", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-30 11:03:01 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-30 11:02:51 - [TEST_SUITE][PASSED] - 3. Get feedback insurance - Batch 1: Test Cases/3. get token - feedback insurance]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

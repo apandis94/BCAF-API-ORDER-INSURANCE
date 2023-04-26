@@ -1,0 +1,2538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sample Feedback" time="179.74" tests="36" failures="0" errors="0">
+   <testsuite name="Sample Feedback" tests="36" failures="0" errors="0" time="179.74" skipped="0" timestamp="2022-07-22 10:28:23" hostname="Nia Yusniati - Apandi" id="Test Suites/Sample Feedback">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nia Yusniati\\Git_Asa\\order-car-ins\\Reports\\20220722_102755\\Sample Feedback\\20220722_102755"/>
+         <property name="logFiles" value="C:\\Users\\Nia Yusniati\\Git_Asa\\order-car-ins\\Reports\\20220722_102755\\Sample Feedback\\20220722_102755\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nia Yusniati - Apandi"/>
+         <property name="hostAddress" value="192.168.250.23"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="10.455" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:28:25 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:28:29 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:28:31 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\0.har
+
+2022-07-22 10:28:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:31 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:28:31 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:28:31 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:28:31 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:28:32 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:28:32 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:28:32 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "1c3FnjgG6bKqX2SZdA15iCoQG1iN",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:32 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "1c3FnjgG6bKqX2SZdA15iCoQG1iN",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:32 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:28:35 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\1.har
+
+2022-07-22 10:28:35 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:35 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:28:35 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:35 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:35 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:35 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:28:35 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="4.238" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:28:35 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:28:37 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\2.har
+
+2022-07-22 10:28:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "RCqFc1cKyopB0gTBKNNNrSc1Fn2U",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:37 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "RCqFc1cKyopB0gTBKNNNrSc1Fn2U",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:37 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:28:39 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\3.har
+
+2022-07-22 10:28:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:39 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:28:39 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:39 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:39 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:39 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:28:39 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.654" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:28:40 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:28:41 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\4.har
+
+2022-07-22 10:28:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "TnUub7Gke6M1Oq1epeS4CJN8p64A",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:41 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "TnUub7Gke6M1Oq1epeS4CJN8p64A",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:41 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:28:43 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\5.har
+
+2022-07-22 10:28:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:43 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:28:43 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:43 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:43 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:43 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:28:43 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.49" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:28:43 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:28:45 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\6.har
+
+2022-07-22 10:28:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "sGgu2OA3Ebenlv7AsduAx6MprYm5",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:45 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "sGgu2OA3Ebenlv7AsduAx6MprYm5",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:45 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:28:47 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\7.har
+
+2022-07-22 10:28:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:47 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:28:47 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:47 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:47 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:47 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:28:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.573" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:28:47 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:28:48 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:28:49 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\8.har
+
+2022-07-22 10:28:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:49 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:28:49 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:28:49 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:28:49 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:28:49 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:28:49 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:28:49 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Q1Yk0hrBvjswVbVzJlWaosbA1gLT",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:49 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Q1Yk0hrBvjswVbVzJlWaosbA1gLT",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:49 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:28:50 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\9.har
+
+2022-07-22 10:28:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:50 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:28:50 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:50 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:50 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:50 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:28:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="6.209" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:28:50 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:28:52 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\10.har
+
+2022-07-22 10:28:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "awugfO9FERexQ4vEde5dnGwWmcAt",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:52 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "awugfO9FERexQ4vEde5dnGwWmcAt",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:52 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:28:56 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\11.har
+
+2022-07-22 10:28:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:56 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:28:56 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:56 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:28:56 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:56 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:28:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:28:57 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="8.93" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:28:57 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:28:58 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\12.har
+
+2022-07-22 10:28:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "500FCur9ZTjGFnHMw6wz21JloLY1",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:58 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "500FCur9ZTjGFnHMw6wz21JloLY1",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:28:58 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:05 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\13.har
+
+2022-07-22 10:29:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:05 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:05 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:05 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:05 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:05 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.755" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:06 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:07 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:08 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\14.har
+
+2022-07-22 10:29:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:08 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:08 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:08 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:08 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:08 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:08 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:08 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "ezAI1GALaKnop1nxXQOimkxHnN0i",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:08 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "ezAI1GALaKnop1nxXQOimkxHnN0i",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:08 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:09 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\15.har
+
+2022-07-22 10:29:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:09 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:09 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:09 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:09 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:09 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.735" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:09 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:11 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\16.har
+
+2022-07-22 10:29:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "B8j7A33nuVTejGVVQAS5PNwCV0AA",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:11 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "B8j7A33nuVTejGVVQAS5PNwCV0AA",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:11 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:13 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\17.har
+
+2022-07-22 10:29:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:13 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:13 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:13 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:13 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:13 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.677" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:13 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:15 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\18.har
+
+2022-07-22 10:29:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "SX4IsyDolEbtzk2S3Di9oYE0ihBw",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:15 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "SX4IsyDolEbtzk2S3Di9oYE0ihBw",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:15 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:17 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\19.har
+
+2022-07-22 10:29:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:17 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:17 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:17 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:17 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:17 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.731" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:17 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:19 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\20.har
+
+2022-07-22 10:29:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "HhQGh7nc1IRAbFovAqpNws8b8Eim",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:19 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "HhQGh7nc1IRAbFovAqpNws8b8Eim",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:19 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:20 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\21.har
+
+2022-07-22 10:29:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:20 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:20 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:20 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:20 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:20 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:20 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.668" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:21 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:22 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\22.har
+
+2022-07-22 10:29:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "enesO84mItK31g4yTRGPlHD8EFV4",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:22 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "enesO84mItK31g4yTRGPlHD8EFV4",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:22 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:24 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\23.har
+
+2022-07-22 10:29:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:24 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:24 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:24 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:24 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:24 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:24 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="8.497" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:24 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:26 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\24.har
+
+2022-07-22 10:29:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "UJFLfOnfFTiD4xxQYX2KA71QXI9V",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:26 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "UJFLfOnfFTiD4xxQYX2KA71QXI9V",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:26 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:33 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\25.har
+
+2022-07-22 10:29:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:33 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:33 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:33 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:33 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:33 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:33 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.887" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:33 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:34 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:35 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\26.har
+
+2022-07-22 10:29:35 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:35 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:35 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:35 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:35 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:35 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:35 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:35 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2pZssVHMyuooCrIYs2YAJ3BvXwrb",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:35 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2pZssVHMyuooCrIYs2YAJ3BvXwrb",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:35 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:37 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\27.har
+
+2022-07-22 10:29:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:37 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:37 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:37 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:37 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:37 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:37 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.432" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:37 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:38 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\28.har
+
+2022-07-22 10:29:38 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "GACz2ZuYGOaqRj26GXfmj490t4w2",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:38 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "GACz2ZuYGOaqRj26GXfmj490t4w2",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:38 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:40 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\29.har
+
+2022-07-22 10:29:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:40 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:40 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:40 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:40 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:40 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:40 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.696" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:40 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:42 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\30.har
+
+2022-07-22 10:29:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2LsfB6GrJ54YM1QFsuKZ5yX5cCFq",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:42 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2LsfB6GrJ54YM1QFsuKZ5yX5cCFq",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:42 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:44 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\31.har
+
+2022-07-22 10:29:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:44 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:44 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:44 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:44 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:44 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="4.353" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:44 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:47 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\32.har
+
+2022-07-22 10:29:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "xdzp524MZArLLJYf5C3gMGk5l3aR",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:47 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "xdzp524MZArLLJYf5C3gMGk5l3aR",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:47 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:48 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\33.har
+
+2022-07-22 10:29:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:48 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:48 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:48 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:48 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:48 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:48 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:48 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="4.295" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:49 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:50 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\34.har
+
+2022-07-22 10:29:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "OqyaDchAjRABDz7lWmG8YPhA5AU5",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:50 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "OqyaDchAjRABDz7lWmG8YPhA5AU5",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:50 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:29:53 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\35.har
+
+2022-07-22 10:29:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:53 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:29:53 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:53 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:29:53 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:53 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:29:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:29:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="9.889" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:29:53 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:29:54 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:29:55 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\36.har
+
+2022-07-22 10:29:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:29:55 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:29:55 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:29:55 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:29:55 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:29:55 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:29:55 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:29:55 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "MGm6DdW8uG5xe0J7cKptwaAu4FSs",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:55 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "MGm6DdW8uG5xe0J7cKptwaAu4FSs",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:29:55 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:03 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\37.har
+
+2022-07-22 10:30:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:03 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:03 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:03 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:03 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:03 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:03 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.42" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:03 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:04 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:05 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\38.har
+
+2022-07-22 10:30:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:05 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:05 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:05 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:05 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:05 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:05 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:05 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Ufgt0ZAeVHOeF0YpxIYC9HqbfT0g",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:05 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Ufgt0ZAeVHOeF0YpxIYC9HqbfT0g",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:05 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:06 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\39.har
+
+2022-07-22 10:30:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:06 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:06 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:06 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:06 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:06 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.262" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:06 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:08 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\40.har
+
+2022-07-22 10:30:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "C3pFT4QYYYXGr2EkhSsMTNfEvln2",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:08 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "C3pFT4QYYYXGr2EkhSsMTNfEvln2",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:08 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:09 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\41.har
+
+2022-07-22 10:30:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:09 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:09 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:09 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:09 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:09 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:10 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.397" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:10 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:11 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\42.har
+
+2022-07-22 10:30:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Affqfa2NV7KdvfWsZ6uEMUEY1hrA",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:11 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Affqfa2NV7KdvfWsZ6uEMUEY1hrA",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:11 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:13 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\43.har
+
+2022-07-22 10:30:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:13 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:13 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:13 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:13 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:13 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.468" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:13 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:14 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:15 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\44.har
+
+2022-07-22 10:30:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:15 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:15 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:15 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:15 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:15 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:15 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:15 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "g6zMtkSDM7y0xmd7zXoHu8YzWpaD",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:15 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "g6zMtkSDM7y0xmd7zXoHu8YzWpaD",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:15 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:16 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\45.har
+
+2022-07-22 10:30:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:16 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:16 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:16 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:16 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:16 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="5.13" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:16 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:18 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\46.har
+
+2022-07-22 10:30:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Gl7aNx3jnHS5ETdRzi5gUvU86iBk",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:18 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Gl7aNx3jnHS5ETdRzi5gUvU86iBk",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:18 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:22 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\47.har
+
+2022-07-22 10:30:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:22 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:22 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:22 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:22 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:22 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:22 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="8.808" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:22 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:23 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\48.har
+
+2022-07-22 10:30:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "u8P2LOcGnIlZroFSUuD0zfhUGpKV",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:23 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "u8P2LOcGnIlZroFSUuD0zfhUGpKV",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:23 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:30 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\49.har
+
+2022-07-22 10:30:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:30 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:30 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:30 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:30 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:30 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:30 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="4.573" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:30 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:32 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\50.har
+
+2022-07-22 10:30:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "vaQMOi1lTdUAdW6pn6qzPCO3UHMu",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:32 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "vaQMOi1lTdUAdW6pn6qzPCO3UHMu",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:32 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:35 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\51.har
+
+2022-07-22 10:30:35 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:35 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:35 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:35 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:35 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:35 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:35 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="4.612" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:35 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:37 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\52.har
+
+2022-07-22 10:30:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2GbrJ68DK804ZjG57xlFNtyG3u67",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:37 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2GbrJ68DK804ZjG57xlFNtyG3u67",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:37 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:40 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\53.har
+
+2022-07-22 10:30:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:40 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:40 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:40 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:40 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:40 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:40 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="5.397" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:40 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:41 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:42 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\54.har
+
+2022-07-22 10:30:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:42 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:42 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:42 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:42 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:42 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:42 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:42 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "j5OUh8pvOfA8SeA2ApMzNAX4npPg",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:42 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "j5OUh8pvOfA8SeA2ApMzNAX4npPg",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:42 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:45 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\55.har
+
+2022-07-22 10:30:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:45 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:45 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:45 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:45 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:45 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:45 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="4.364" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:45 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:47 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\56.har
+
+2022-07-22 10:30:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Awqq7MbSSrygIfTHvqqwcFD1Zqon",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:47 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Awqq7MbSSrygIfTHvqqwcFD1Zqon",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:47 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:50 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\57.har
+
+2022-07-22 10:30:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:50 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:50 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:50 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:50 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:50 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="7.598" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:50 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:51 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:52 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\58.har
+
+2022-07-22 10:30:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:52 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:52 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:52 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:52 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:52 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:52 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:52 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "SDLhnKAswRC9Y4QARwFNqh31Mnfc",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:52 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "SDLhnKAswRC9Y4QARwFNqh31Mnfc",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:52 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:30:57 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\59.har
+
+2022-07-22 10:30:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:57 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:30:57 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:57 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:30:57 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:57 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:30:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:30:57 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.525" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:30:57 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:30:59 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\60.har
+
+2022-07-22 10:30:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "T4wYX5X4Dqnt40ytoG4jb9HDoPZe",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:59 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "T4wYX5X4Dqnt40ytoG4jb9HDoPZe",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:30:59 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:31:01 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\61.har
+
+2022-07-22 10:31:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:01 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:31:01 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:01 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:01 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:01 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:01 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:31:01 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.32" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:31:01 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:31:02 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:31:03 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\62.har
+
+2022-07-22 10:31:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:03 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:31:03 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:31:03 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:31:03 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:31:03 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:31:03 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:31:03 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "YMgSxa2RRG9vtDxSp2h1NPIEHuM5",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:03 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "YMgSxa2RRG9vtDxSp2h1NPIEHuM5",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:03 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:31:04 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\63.har
+
+2022-07-22 10:31:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:04 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:31:04 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:04 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:04 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:04 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:31:04 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.634" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:31:04 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:31:06 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\64.har
+
+2022-07-22 10:31:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Ij0ETYVwodYo0YSZk2GXWhERvPE1",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:06 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "Ij0ETYVwodYo0YSZk2GXWhERvPE1",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:06 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:31:08 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\65.har
+
+2022-07-22 10:31:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:08 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:31:08 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:08 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:08 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:08 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:31:08 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="4.477" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:31:08 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:31:10 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\66.har
+
+2022-07-22 10:31:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "kG8cE6uhzTBKP2rjA2DcGFAJacOt",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:10 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "kG8cE6uhzTBKP2rjA2DcGFAJacOt",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:10 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:31:12 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\67.har
+
+2022-07-22 10:31:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:12 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:31:12 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:12 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:12 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:12 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:31:12 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="3.976" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:31:12 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:31:14 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\68.har
+
+2022-07-22 10:31:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "9UNqiPSCZGuWwWvPQlTKViEF2Q63",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:14 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "9UNqiPSCZGuWwWvPQlTKViEF2Q63",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:14 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:31:16 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\69.har
+
+2022-07-22 10:31:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:16 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:31:16 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:16 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:16 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:16 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:31:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. get token - feedback insurance new" time="5.047" classname="Test Cases/4. get token - feedback insurance new" status="PASSED">
+         <system-out><![CDATA[2022-07-22 10:31:16 - [TEST_CASE][PASSED] - Test Cases/4. get token - feedback insurance new: Test Cases/4. get token - feedback insurance new
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-07-22 10:31:18 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\70.har
+
+2022-07-22 10:31:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2P5bSrKY898atG2wdDd7Q1kFKj05",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:18 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "2P5bSrKY898atG2wdDd7Q1kFKj05",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-07-22 10:31:18 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins2", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-07-22 10:31:21 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220722_102755\Sample Feedback\20220722_102755\requests\main\71.har
+
+2022-07-22 10:31:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-22 10:31:21 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-07-22 10:31:21 - [TEST_STEP][PASSED] - markPassed("result feedback data : " + no + " norek : " + norek + " nopin : " + nopin): result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:21 - [MESSAGE][PASSED] - result feedback data : 1 norek : 1154000993 nopin : 001
+
+2022-07-22 10:31:21 - [TEST_STEP][PASSED] - logInfo($response_feedback): {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:21 - [MESSAGE][INFO] - {
+  "ResponseHeader" : {
+    "MessageCode" : "12",
+    "MessageName" : "Data Sudah Pernah Disubmit"
+  }
+}
+
+2022-07-22 10:31:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(feedback, "ResponseHeader.MessageName", "Data Sudah Pernah Disubmit", CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-07-22 10:31:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-22 10:28:23 - [TEST_SUITE][PASSED] - Sample Feedback: Test Cases/4. get token - feedback insurance new]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

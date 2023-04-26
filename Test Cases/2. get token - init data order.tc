@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. get token - init data order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>647b5bc9-92bc-4c6e-9e9f-8e1fab3a44fa</testCaseGuid>
+   <variable>
+      <defaultValue>'2022-07-07'</defaultValue>
+      <description></description>
+      <id>ea7d7fb5-78de-404d-b6f0-8bb0bc435c01</id>
+      <masked>false</masked>
+      <name>order_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'BCA Insurance'</defaultValue>
+      <description></description>
+      <id>8b6f80b8-e8e2-4fc3-ac83-3d050441b51a</id>
+      <masked>false</masked>
+      <name>maskapai_id</name>
+   </variable>
+</TestCaseEntity>

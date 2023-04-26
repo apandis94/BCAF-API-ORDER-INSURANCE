@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3. Get feedback insurance - Batch 1" time="7.595" tests="4" failures="0" errors="4">
+   <testsuite name="3. Get feedback insurance - Batch 1" tests="4" failures="0" errors="4" time="7.595" skipped="0" timestamp="2022-03-30 10:59:34" hostname="Flavalize - DESKTOP-3CQ5RDT" id="Test Suites/3. Get feedback insurance - Batch 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220330_105925\\3. Get feedback insurance - Batch 1\\20220330_105925"/>
+         <property name="logFiles" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220330_105925\\3. Get feedback insurance - Batch 1\\20220330_105925\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Flavalize - DESKTOP-3CQ5RDT"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="3.02" classname="Test Cases/3. get token - feedback insurance" status="ERROR">
+         <error type="ERROR" message="Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-30 10:59:35 - [TEST_CASE][ERROR] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+
+
+2022-03-30 10:59:36 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 10:59:37 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_105925\3. Get feedback insurance - Batch 1\20220330_105925\requests\main\0.har
+
+2022-03-30 10:59:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 10:59:37 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 10:59:37 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 10:59:37 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 10:59:37 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 10:59:37 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 10:59:37 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 10:59:37 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "PHjqzoXXIlC7xxSQWox6YcmEDRUC",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 10:59:37 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "PHjqzoXXIlC7xxSQWox6YcmEDRUC",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 10:59:37 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 10:59:38 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_105925\3. Get feedback insurance - Batch 1\20220330_105925\requests\main\1.har
+
+2022-03-30 10:59:38 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 10:59:38 - [TEST_STEP][ERROR] - logInfo(request): Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+
+
+2022-03-30 10:59:38 - [MESSAGE][ERROR] - Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-30 10:59:35 - [TEST_CASE][ERROR] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="0.874" classname="Test Cases/3. get token - feedback insurance" status="ERROR">
+         <error type="ERROR" message="Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-30 10:59:39 - [TEST_CASE][ERROR] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 10:59:39 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_105925\3. Get feedback insurance - Batch 1\20220330_105925\requests\main\2.har
+
+2022-03-30 10:59:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "4ncdqwqLs6Uk1AXO2bCfQqSKwUlF",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 10:59:39 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "4ncdqwqLs6Uk1AXO2bCfQqSKwUlF",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 10:59:39 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 10:59:39 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_105925\3. Get feedback insurance - Batch 1\20220330_105925\requests\main\3.har
+
+2022-03-30 10:59:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 10:59:39 - [TEST_STEP][ERROR] - logInfo(request): Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+
+
+2022-03-30 10:59:39 - [MESSAGE][ERROR] - Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-30 10:59:39 - [TEST_CASE][ERROR] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="0.871" classname="Test Cases/3. get token - feedback insurance" status="ERROR">
+         <error type="ERROR" message="Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-30 10:59:40 - [TEST_CASE][ERROR] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 10:59:40 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_105925\3. Get feedback insurance - Batch 1\20220330_105925\requests\main\4.har
+
+2022-03-30 10:59:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "gtfqPRNqBS3P0Y2jJD5VGG70W1ON",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 10:59:40 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "gtfqPRNqBS3P0Y2jJD5VGG70W1ON",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 10:59:40 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 10:59:41 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_105925\3. Get feedback insurance - Batch 1\20220330_105925\requests\main\5.har
+
+2022-03-30 10:59:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 10:59:41 - [TEST_STEP][ERROR] - logInfo(request): Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+
+
+2022-03-30 10:59:41 - [MESSAGE][ERROR] - Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-30 10:59:40 - [TEST_CASE][ERROR] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="0.847" classname="Test Cases/3. get token - feedback insurance" status="ERROR">
+         <error type="ERROR" message="Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-30 10:59:41 - [TEST_CASE][ERROR] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-30 10:59:41 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_105925\3. Get feedback insurance - Batch 1\20220330_105925\requests\main\6.har
+
+2022-03-30 10:59:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "k7vvzo5onaifcHcImlipVtvzc1it",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 10:59:41 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "k7vvzo5onaifcHcImlipVtvzc1it",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-30 10:59:41 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-30 10:59:42 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220330_105925\3. Get feedback insurance - Batch 1\20220330_105925\requests\main\7.har
+
+2022-03-30 10:59:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-30 10:59:42 - [TEST_STEP][ERROR] - logInfo(request): Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)
+
+
+2022-03-30 10:59:42 - [MESSAGE][ERROR] - Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-30 10:59:41 - [TEST_CASE][ERROR] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-30 10:59:34 - [TEST_SUITE][ERROR] - 3. Get feedback insurance - Batch 1: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-03-30 10:59:34 - [TEST_SUITE][ERROR] - 3. Get feedback insurance - Batch 1: Test Cases/3. get token - feedback insurance FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: request for class: Script1648457793045
+	at 3. get token - feedback insurance.run(3. get token - feedback insurance:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648612765270.run(TempTestSuite1648612765270.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

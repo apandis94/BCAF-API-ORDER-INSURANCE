@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3. Get feedback insurance - Batch 1,,,,2022-03-30 10:59:34,2022-03-30 10:59:42,7.595s,ERROR
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-30 10:59:35,2022-03-30 10:59:38,3.020s,ERROR
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-30 10:59:36,2022-03-30 10:59:37,1.300s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-30 10:59:37,2022-03-30 10:59:37,0.010s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-30 10:59:37,2022-03-30 10:59:37,0.018s,PASSED
+private_token = access_token,,define / field api,,2022-03-30 10:59:37,2022-03-30 10:59:37,0.010s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-30 10:59:37,2022-03-30 10:59:37,0.074s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-30 10:59:37,2022-03-30 10:59:37,0.003s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-30 10:59:37,2022-03-30 10:59:37,0.001s,PASSED
+logInfo($response_token),,,,2022-03-30 10:59:37,2022-03-30 10:59:37,0.033s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-30 10:59:37,2022-03-30 10:59:38,0.913s,PASSED
+logInfo(request),,,,2022-03-30 10:59:38,2022-03-30 10:59:38,0.014s,ERROR
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.874s,ERROR
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.140s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.001s,PASSED
+private_token = access_token,,define / field api,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.001s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.001s,PASSED
+logInfo($response_token),,,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.000s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.677s,PASSED
+logInfo(request),,,,2022-03-30 10:59:39,2022-03-30 10:59:39,0.001s,ERROR
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-30 10:59:40,2022-03-30 10:59:41,0.871s,ERROR
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-30 10:59:40,2022-03-30 10:59:40,0.136s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-30 10:59:40,2022-03-30 10:59:40,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-30 10:59:40,2022-03-30 10:59:40,0.001s,PASSED
+private_token = access_token,,define / field api,,2022-03-30 10:59:40,2022-03-30 10:59:40,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-30 10:59:40,2022-03-30 10:59:40,0.000s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-30 10:59:40,2022-03-30 10:59:40,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-30 10:59:40,2022-03-30 10:59:40,0.000s,PASSED
+logInfo($response_token),,,,2022-03-30 10:59:40,2022-03-30 10:59:40,0.000s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-30 10:59:40,2022-03-30 10:59:41,0.681s,PASSED
+logInfo(request),,,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.002s,ERROR
+,,,,,,,
+Test Cases/3. get token - feedback insurance,,,,2022-03-30 10:59:41,2022-03-30 10:59:42,0.847s,ERROR
+"token = sendRequest(findTestObject(""1. Get-Token""))",,,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.150s,PASSED
+slurper = new groovy.json.JsonSlurper(),,store json response to variable,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.000s,PASSED
+get_token = slurper.parseText(token.getResponseBodyContent()),,,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.001s,PASSED
+private_token = access_token,,define / field api,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.000s,PASSED
+global_token = private_token,,store var to global variable,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.000s,PASSED
+"println(""token is :"" + global_token)",,,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.000s,PASSED
+response_token = token.getResponseText(),,show response to report in test suite,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.000s,PASSED
+logInfo($response_token),,,,2022-03-30 10:59:41,2022-03-30 10:59:41,0.000s,PASSED
+"feedback = sendRequest(findTestObject(""4. Feedback-ins"", [""s_key"":global_token, ""batchid"":batchid, ""norek"":norek, ""nopin"":nopin, ""custname"":custname, ""pemohon"":pemohon, ""branchid"":branchid, ... ]))",,,,2022-03-30 10:59:41,2022-03-30 10:59:42,0.643s,PASSED
+logInfo(request),,,,2022-03-30 10:59:42,2022-03-30 10:59:42,0.001s,ERROR

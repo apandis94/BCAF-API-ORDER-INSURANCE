@@ -1,0 +1,10 @@
+.gradle
+
+bin
+
+Libs
+
+output
+
+!output/.gitkeep
+build

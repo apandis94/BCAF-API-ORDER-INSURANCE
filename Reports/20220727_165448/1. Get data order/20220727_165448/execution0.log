@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709018</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/1. Get data order</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">1. Get data order</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/1. Get data order</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709047</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Nia Yusniati - Apandi</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Nia Yusniati - Apandi</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709048</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709049</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.10.90.47</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">10.10.90.47</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709051</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.1.0.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.1.0.208</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709638</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/1. get token - get data order</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/1. get token - get data order</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/1. get token - get data order</property>
+  <property name="source">C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Test Cases\1. get token - get data order.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709908</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) no = 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709939</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) c_id = NEWTRKS</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709963</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) order_date = 2022-07-08</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:09</date>
+  <millis>1658915709993</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) page = 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:10</date>
+  <millis>1658915710017</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) rows = 100</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:11</date>
+  <millis>1658915711156</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : token = sendRequest(findTestObject(&amp;quot;1.1 Get Token&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713551</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220727_165448\1. Get data order\20220727_165448\requests\main\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">7d532b32-5ca4-4857-a6a1-bc3b939aa9e7</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713763</millis>
+  <sequence>16</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713768</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : token = sendRequest(findTestObject(&amp;quot;1.1 Get Token&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713770</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+  <property name="description">store json response to variable</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713812</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713813</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : get_token = slurper.parseText(token.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713906</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : get_token = slurper.parseText(token.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713907</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : private_token = access_token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+  <property name="description">define / field api</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713934</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : private_token = access_token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:13</date>
+  <millis>1658915713935</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : global_token = private_token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">5</property>
+  <property name="description">store var to global variable</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714147</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : global_token = private_token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714147</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;token is :&amp;quot; + global_token)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714153</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;token is :&amp;quot; + global_token)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714154</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response_token = token.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">37</property>
+  <property name="stepIndex">7</property>
+  <property name="description">show response to report in test suite</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714156</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response_token = token.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714156</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo($response_token)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714231</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>
+            {
+                &amp;quot;token_type&amp;quot;: &amp;quot;BearerToken&amp;quot;,
+                &amp;quot;access_token&amp;quot;: &amp;quot;Majc9AbMjp2DOzn0VXzMiJ132hpq&amp;quot;,
+                &amp;quot;expires_in&amp;quot;: &amp;quot;599&amp;quot;,
+                &amp;quot;scope&amp;quot;: &amp;quot;&amp;quot;
+            }
+        </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714232</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo($response_token)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:14</date>
+  <millis>1658915714234</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : order = sendRequest(findTestObject(&amp;quot;3. Get-data-order&amp;quot;, [&amp;quot;s_key&amp;quot;:global_token, &amp;quot;c_id&amp;quot;:c_id, &amp;quot;order_date&amp;quot;:order_date, &amp;quot;page&amp;quot;:page, &amp;quot;rows&amp;quot;:rows]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">41</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715313</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220727_165448\1. Get data order\20220727_165448\requests\main\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">c294010f-aabd-4512-b960-7778b12c8dda</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715321</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715323</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : order = sendRequest(findTestObject(&amp;quot;3. Get-data-order&amp;quot;, [&amp;quot;s_key&amp;quot;:global_token, &amp;quot;c_id&amp;quot;:c_id, &amp;quot;order_date&amp;quot;:order_date, &amp;quot;page&amp;quot;:page, &amp;quot;rows&amp;quot;:rows]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715324</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : get_order = order.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">45</property>
+  <property name="stepIndex">10</property>
+  <property name="description">show response to report in test suite</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715326</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : get_order = order.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715327</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markPassed(&amp;quot;result feedback data : &amp;quot; + no)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">47</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715348</millis>
+  <sequence>43</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>result feedback data : 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:330)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:324)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:55)
+com.kms.katalon.core.util.KeywordUtil$markPassed.call(Unknown Source)
+1. get token - get data order.run(1. get token - get data order:47)
+</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715350</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markPassed(&amp;quot;result feedback data : &amp;quot; + no)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715351</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo($get_order)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">49</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715353</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>{&amp;quot;ResponseHeader&amp;quot;:{&amp;quot;ErrorCode&amp;quot;:&amp;quot;00&amp;quot;,&amp;quot;ErrorMessage&amp;quot;:&amp;quot;Success&amp;quot;,&amp;quot;CurrentPage&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TotalPage&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TotalData&amp;quot;:&amp;quot;1&amp;quot;},&amp;quot;GetDataOrderResponse&amp;quot;:{&amp;quot;ListDataOrder&amp;quot;:[{&amp;quot;TipeOrder&amp;quot;:&amp;quot;A&amp;quot;,&amp;quot;BatchID&amp;quot;:&amp;quot;A_BCAFNEWTRKSBatch20220705001&amp;quot;,&amp;quot;NoRek&amp;quot;:&amp;quot;9530008519&amp;quot;,&amp;quot;NoPin&amp;quot;:&amp;quot;001&amp;quot;,&amp;quot;CustName&amp;quot;:&amp;quot;PORORO&amp;quot;,&amp;quot;Pemohon&amp;quot;:&amp;quot;PT BCAF QQ BCA&amp;quot;,&amp;quot;HargaPembelian&amp;quot;:&amp;quot;350000000.00&amp;quot;,&amp;quot;Cabang&amp;quot;:&amp;quot;9530&amp;quot;,&amp;quot;MerkID&amp;quot;:&amp;quot;TYT&amp;quot;,&amp;quot;TypeMobil&amp;quot;:&amp;quot;ALL NEW AVANZA 1.3 E A\/T AIRBAG&amp;quot;,&amp;quot;JenisMobil&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;TahunMobil&amp;quot;:&amp;quot;2020&amp;quot;,&amp;quot;Warna&amp;quot;:&amp;quot;WHITE&amp;quot;,&amp;quot;NoRangka&amp;quot;:&amp;quot;BJ8732109K&amp;quot;,&amp;quot;NoMesin&amp;quot;:&amp;quot;BB 8900 JK&amp;quot;,&amp;quot;NoPolisi&amp;quot;:&amp;quot;F 9009 TF&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;NamaBPKB&amp;quot;:&amp;quot;PORORO&amp;quot;,&amp;quot;KategoriMobil&amp;quot;:&amp;quot;3 &amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PenggunaanKendaraan&amp;quot;:&amp;quot;Operasional&amp;quot;,&amp;quot;Kondisi&amp;quot;:&amp;quot;2&amp;quot;,&amp;quot;LastUser&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories1&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories3&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories4&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Accessories5&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;HargaAccessories1&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories2&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories3&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories4&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;HargaAccessories5&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;OverKredit&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Restructure&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;NoPolisLama&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;MailAddress&amp;quot;:&amp;quot;Kp. Jahe merah no. 21 Sukamaju CIGUDEG&amp;quot;,&amp;quot;KabKodya&amp;quot;:&amp;quot;BOGOR&amp;quot;,&amp;quot;PostalCode&amp;quot;:&amp;quot;16660&amp;quot;,&amp;quot;PaketMobil&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;CustType&amp;quot;:&amp;quot;C&amp;quot;,&amp;quot;IdentityNo&amp;quot;:&amp;quot;809010056543210&amp;quot;,&amp;quot;BirthPlace&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;BirthDate&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Occupation&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;AlamatKTP&amp;quot;:&amp;quot;Kp. Jahe merah no. 21&amp;quot;,&amp;quot;KelurahanKTP&amp;quot;:&amp;quot;Sukamaju&amp;quot;,&amp;quot;KecamatanKTP&amp;quot;:&amp;quot;CIGUDEG&amp;quot;,&amp;quot;KabKodyaKTP&amp;quot;:&amp;quot;BOGOR&amp;quot;,&amp;quot;ProvinsiKTP&amp;quot;:&amp;quot;Jawa Barat&amp;quot;,&amp;quot;PostalCodeKTP&amp;quot;:&amp;quot;16660&amp;quot;,&amp;quot;DealerName&amp;quot;:&amp;quot;Auto 2000 Tangerang 4970646111&amp;quot;,&amp;quot;PacketID&amp;quot;:&amp;quot;CS20180064&amp;quot;,&amp;quot;InsuranceData&amp;quot;:[{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;ALL RISK&amp;quot;,&amp;quot;NominalTJH&amp;quot;:&amp;quot;10000000       &amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;350000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2022-07-05T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2023-07-05T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;73000.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;14000.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;73000.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;TLO&amp;quot;,&amp;quot;NominalTJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;350000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2023-07-05T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2024-07-05T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;TLO&amp;quot;,&amp;quot;NominalTJH&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;350000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2024-07-05T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2025-07-05T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}},{&amp;quot;KondisiPertanggungan&amp;quot;:&amp;quot;ALL RISK&amp;quot;,&amp;quot;NominalTJH&amp;quot;:&amp;quot;10000000       &amp;quot;,&amp;quot;InsuredValue&amp;quot;:&amp;quot;350000000.00&amp;quot;,&amp;quot;InsuredFrom&amp;quot;:&amp;quot;2025-07-05T00:00:00&amp;quot;,&amp;quot;InsuredTo&amp;quot;:&amp;quot;2026-07-05T00:00:00&amp;quot;,&amp;quot;Rate&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;GrossPremi&amp;quot;:&amp;quot;73000.00&amp;quot;,&amp;quot;Discount&amp;quot;:&amp;quot;0.0000&amp;quot;,&amp;quot;Adm&amp;quot;:&amp;quot;0.00&amp;quot;,&amp;quot;NetPremi&amp;quot;:&amp;quot;73000.00&amp;quot;,&amp;quot;Amount2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;Text2&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;PerluasanJaminan&amp;quot;:{&amp;quot;TJH&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;RSCC&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;Banjir&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;Accessories&amp;quot;:&amp;quot;0&amp;quot;}}]}]}}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715356</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo($get_order)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715356</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/1. get token - get data order</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715357</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/1. get token - get data order</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715364</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:15</date>
+  <millis>1658915715982</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220727_165448\1. Get data order\20220727_165448...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:16</date>
+  <millis>1658915716064</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:16</date>
+  <millis>1658915716070</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\Nia Yusniati\Git_Asa\order-car-ins\Reports\20220727_165448\1. Get data order\20220727_165448...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:16</date>
+  <millis>1658915716118</millis>
+  <sequence>145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:16</date>
+  <millis>1658915716184</millis>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-07-27T16:55:16</date>
+  <millis>1658915716561</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/1. Get data order</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

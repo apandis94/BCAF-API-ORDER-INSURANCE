@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3. Get feedback insurance" time="3.458" tests="2" failures="0" errors="0">
+   <testsuite name="3. Get feedback insurance" tests="2" failures="0" errors="0" time="3.458" skipped="0" timestamp="2022-03-28 17:08:00" hostname="flavalize - localhost" id="Test Suites/3. Get feedback insurance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Volumes/Data/app-testing/app-project/Order car insurance/order-car-insurance/Reports/20220328_170749/3. Get feedback insurance/20220328_170749"/>
+         <property name="logFiles" value="/Volumes/Data/app-testing/app-project/Order car insurance/order-car-insurance/Reports/20220328_170749/3. Get feedback insurance/20220328_170749/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="flavalize - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="2.067" classname="Test Cases/3. get token - feedback insurance" status="PASSED">
+         <system-out><![CDATA[2022-03-28 17:08:00 - [TEST_CASE][PASSED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance
+
+2022-03-28 17:08:00 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-28 17:08:01 - [MESSAGE][INFO] - HAR: /Volumes/Data/app-testing/app-project/Order car insurance/order-car-insurance/Reports/20220328_170749/3. Get feedback insurance/20220328_170749/requests/main/0.har
+
+2022-03-28 17:08:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-28 17:08:01 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-28 17:08:01 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-28 17:08:01 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-28 17:08:01 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-28 17:08:01 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-28 17:08:01 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-28 17:08:01 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "ioK5RUvMQtWjAiq9C8ap5ZgS1pNO",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-28 17:08:01 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "ioK5RUvMQtWjAiq9C8ap5ZgS1pNO",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-28 17:08:01 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-28 17:08:02 - [MESSAGE][INFO] - HAR: /Volumes/Data/app-testing/app-project/Order car insurance/order-car-insurance/Reports/20220328_170749/3. Get feedback insurance/20220328_170749/requests/main/1.har
+
+2022-03-28 17:08:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-28 17:08:02 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-28 17:08:02 - [TEST_STEP][PASSED] - logInfo($response_feedback): <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-28 17:08:02 - [MESSAGE][INFO] - <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. get token - feedback insurance" time="0.567" classname="Test Cases/3. get token - feedback insurance" status="PASSED">
+         <system-out><![CDATA[2022-03-28 17:08:03 - [TEST_CASE][PASSED] - Test Cases/3. get token - feedback insurance: Test Cases/3. get token - feedback insurance
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-28 17:08:03 - [MESSAGE][INFO] - HAR: /Volumes/Data/app-testing/app-project/Order car insurance/order-car-insurance/Reports/20220328_170749/3. Get feedback insurance/20220328_170749/requests/main/2.har
+
+2022-03-28 17:08:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "ek5bI82yeImZrMjwOD9FAn5k9Gpx",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-28 17:08:03 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "ek5bI82yeImZrMjwOD9FAn5k9Gpx",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - feedback = sendRequest(findTestObject("4. Feedback-ins", ["s_key":global_token, "batchid":batchid, "norek":norek, "nopin":nopin, "custname":custname, "pemohon":pemohon, "branchid":branchid, ... ])): Send request successfully
+
+2022-03-28 17:08:03 - [MESSAGE][INFO] - HAR: /Volumes/Data/app-testing/app-project/Order car insurance/order-car-insurance/Reports/20220328_170749/3. Get feedback insurance/20220328_170749/requests/main/3.har
+
+2022-03-28 17:08:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - response_feedback = feedback.getResponseText(): null
+
+2022-03-28 17:08:03 - [TEST_STEP][PASSED] - logInfo($response_feedback): <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>
+
+2022-03-28 17:08:03 - [MESSAGE][INFO] - <?xml version="1.0" encoding="UTF-8"?>
+<err:RestError xmlns:err="http://www.bea.com/wli/sb/errors"><err:errorMessage>OSB Service Callout action received SOAP Fault response</err:errorMessage><err:errorCode>OSB-382500</err:errorCode></err:RestError>]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-28 17:08:00 - [TEST_SUITE][PASSED] - 3. Get feedback insurance: Test Cases/3. get token - feedback insurance]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

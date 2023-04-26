@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get data order" time="15.683" tests="1" failures="1" errors="0">
+   <testsuite name="Get data order" tests="1" failures="1" errors="0" time="15.683" skipped="0" timestamp="2022-03-24 12:00:22" hostname="Flavalize - DESKTOP-3CQ5RDT" id="Test Suites/Get data order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220324_120013\\Get data order\\20220324_120013"/>
+         <property name="logFiles" value="I:\\app-testing\\app-project\\Order car insurance\\order-car-insurance\\Reports\\20220324_120013\\Get data order\\20220324_120013\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Flavalize - DESKTOP-3CQ5RDT"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/1. get token - data order" time="2.72" classname="Test Cases/1. get token - data order" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1. get token - data order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '360000000' is not equal with actual property value '360000000.00'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 1. get token - data order.run(1. get token - data order:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648098013387.run(TempTestSuite1648098013387.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-24 12:00:35 - [TEST_CASE][FAILED] - Test Cases/1. get token - data order: Test Cases/1. get token - data order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '360000000' is not equal with actual property value '360000000.00'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 1. get token - data order.run(1. get token - data order:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648098013387.run(TempTestSuite1648098013387.groovy:36)
+
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - token = sendRequest(findTestObject("1. Get-Token")): Send request successfully
+
+2022-03-24 12:00:36 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_120013\Get data order\20220324_120013\requests\main\6.har
+
+2022-03-24 12:00:36 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - get_token = slurper.parseText(token.getResponseBodyContent()): null
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - private_token = access_token: null
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - global_token = private_token: null
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - println("token is :" + global_token): null
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - response_token = token.getResponseText(): null
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - logInfo($response_token): 
+            {
+                "token_type": "BearerToken",
+                "access_token": "qgk9dkru63VuncCQJVz3kJ7YJS6Y",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-24 12:00:36 - [MESSAGE][INFO] - 
+            {
+                "token_type": "BearerToken",
+                "access_token": "qgk9dkru63VuncCQJVz3kJ7YJS6Y",
+                "expires_in": "1799",
+                "scope": ""
+            }
+        
+
+2022-03-24 12:00:36 - [TEST_STEP][PASSED] - order = sendRequest(findTestObject("3. Get-data-order", ["s_key":global_token, "c_id":c_id, "order_date":order_date, "page":page, "rows":rows])): Send request successfully
+
+2022-03-24 12:00:37 - [MESSAGE][INFO] - HAR: I:\app-testing\app-project\Order car insurance\order-car-insurance\Reports\20220324_120013\Get data order\20220324_120013\requests\main\7.har
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - get_order = order.getResponseText(): null
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - markPassed("data ke : " + no): data ke : 1
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - data ke : 1
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].TipeOrder", o_tipeorder, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].BatchID", o_batchid, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoRek", o_norek, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoPin", o_nopin, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].CustName", o_custname, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Pemohon", o_pemohon, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:37 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].HargaPembelian", o_otr, CONTINUE_ON_FAILURE): Expected element property value '360000000' is not equal with actual property value '360000000.00'
+
+2022-03-24 12:00:37 - [MESSAGE][FAILED] - Expected element property value '360000000' is not equal with actual property value '360000000.00'
+
+2022-03-24 12:00:37 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].BranchId", o_branchid, CONTINUE_ON_FAILURE): Expected element property value '1154' is not equal with actual property value 'null'
+
+2022-03-24 12:00:37 - [MESSAGE][FAILED] - Expected element property value '1154' is not equal with actual property value 'null'
+
+2022-03-24 12:00:37 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].MerkId", o_merk, CONTINUE_ON_FAILURE): Expected element property value 'TYT' is not equal with actual property value 'null'
+
+2022-03-24 12:00:37 - [MESSAGE][FAILED] - Expected element property value 'TYT' is not equal with actual property value 'null'
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].TypeMobil", o_type, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:37 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Jenis", o_jenis, CONTINUE_ON_FAILURE): Expected element property value '1' is not equal with actual property value 'null'
+
+2022-03-24 12:00:37 - [MESSAGE][FAILED] - Expected element property value '1' is not equal with actual property value 'null'
+
+2022-03-24 12:00:37 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Tahun", o_tahun, CONTINUE_ON_FAILURE): Expected element property value '2017' is not equal with actual property value 'null'
+
+2022-03-24 12:00:37 - [MESSAGE][FAILED] - Expected element property value '2017' is not equal with actual property value 'null'
+
+2022-03-24 12:00:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Warna", o_warna, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoRangka", o_norangka, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoMesin", o_nomesin, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NoPolisi", o_nopol, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].NamaBPKB", o_namabpkb, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].KategoriMobil", o_kategori, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].PenggunaanKendaraan", o_purpose, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Kondisi", o_kondisi, CONTINUE_ON_FAILURE): Verify element property value successfully
+
+2022-03-24 12:00:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-24 12:00:38 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories1", o_acc1, CONTINUE_ON_FAILURE): Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [MESSAGE][FAILED] - Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories2", o_acc2, CONTINUE_ON_FAILURE): Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [MESSAGE][FAILED] - Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories3", o_acc3, CONTINUE_ON_FAILURE): Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [MESSAGE][FAILED] - Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories4", o_acc4, CONTINUE_ON_FAILURE): Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [MESSAGE][FAILED] - Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [TEST_STEP][FAILED] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].Accessories5", o_acc5, CONTINUE_ON_FAILURE): Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [MESSAGE][FAILED] - Expected element property value '1' is not equal with actual property value ''
+
+2022-03-24 12:00:38 - [TEST_STEP][ERROR] - verifyElementPropertyValue(order, "GetDataOrderResponse.ListDataOrder[0].HargaAccessories1", o_harga_acc1, CONTINUE_ON_FAILURE): Test Cases/1. get token - data order FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: o_harga_acc1 for class: Script1647585620039
+	at 1. get token - data order.run(1. get token - data order:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648098013387.run(TempTestSuite1648098013387.groovy:36)
+
+
+2022-03-24 12:00:38 - [MESSAGE][ERROR] - Test Cases/1. get token - data order FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: o_harga_acc1 for class: Script1647585620039
+	at 1. get token - data order.run(1. get token - data order:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648098013387.run(TempTestSuite1648098013387.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-24 12:00:35 - [TEST_CASE][FAILED] - Test Cases/1. get token - data order: Test Cases/1. get token - data order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '360000000' is not equal with actual property value '360000000.00'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 1. get token - data order.run(1. get token - data order:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648098013387.run(TempTestSuite1648098013387.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-24 12:00:22 - [TEST_SUITE][FAILED] - Get data order: Test Cases/1. get token - data order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '360000000' is not equal with actual property value '360000000.00'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 1. get token - data order.run(1. get token - data order:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648098013387.run(TempTestSuite1648098013387.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-03-24 12:00:22 - [TEST_SUITE][FAILED] - Get data order: Test Cases/1. get token - data order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '360000000' is not equal with actual property value '360000000.00'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:175)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at 1. get token - data order.run(1. get token - data order:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648098013387.run(TempTestSuite1648098013387.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
